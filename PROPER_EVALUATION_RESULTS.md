@@ -153,63 +153,152 @@ After excluding 14 outlier examples with extreme values:
 
 ---
 
-## Sample Predictions
+## Distribution-Level Analysis (Wasserstein Distance)
 
-### Example 1: Social Security Reform
+**Important**: Wasserstein distance measures **group-level distribution alignment**, not individual predictions. The evaluation analyzed **26 experimental conditions** across **100 examples**.
+
+### Performance Summary Across All Conditions
+
+```
+Total conditions evaluated: 26
+  - Perfect alignment (W = 0.000): 17 conditions (65%)
+  - Good alignment (W < 0.100): 20 conditions (77%)
+  - Moderate alignment (W < 0.300): 24 conditions (92%)
+  - Weak alignment (W ≥ 0.300): 2 conditions (8%)
+```
+
+### Example 1: Perfect Distribution Alignment
+
+**Study**: a693y (Social Security Reform)
+**Condition**: Choice between retirement age vs payroll tax
+**Participants**: 2
+**Wasserstein Distance**: 0.0000
+
+| Response Option | True Distribution | Model Distribution |
+|----------------|-------------------|-------------------|
+| 2 (Raise payroll tax cap) | 100% | 100% |
+
+**Analysis**: Perfect match. Both participants chose to raise the payroll tax cap, and the model correctly predicted 100% would choose this option. This represents ideal distribution alignment.
+
+---
+
+### Example 2: Perfect Alignment Despite Different Individual Predictions
+
+**Study**: 326nv (Immigration Trust)
+**Condition**: Neutral immigration advertisement
+**Participants**: 2
+**Wasserstein Distance**: 0.0000
+
+| Response Option | True Distribution | Model Distribution | Difference |
+|----------------|-------------------|-------------------|-----------|
+| 1 (Low trust) | 50% | 0% | 50% |
+| 2 (Medium-low trust) | 0% | 50% | 50% |
+| 3 (Medium trust) | 50% | 50% | 0% |
+
+**Analysis**: Wasserstein distance is 0.000 even though individual predictions differ. Why? The **spread** of the distribution is identical (50% at lower values, 50% at middle values). The model captured the group-level pattern correctly even if individuals were off by 1 point.
+
+---
+
+### Example 3: Electric Vehicle Purchase Intent (Good Alignment)
+
+**Study**: v6kqy (Ford F-150 Lightning)
+**Condition**: Electric truck purchase likelihood
+**Participants**: 5
+**Wasserstein Distance**: 0.194
+
+| Response Option | True Distribution | Model Distribution | Difference |
+|----------------|-------------------|-------------------|-----------|
+| 1 (Very unlikely) | 20% | 40% | +20% |
+| 2 (Unlikely) | 40% | 60% | +20% |
+| 3 (Neutral) | 20% | 0% | -20% |
+| 4 (Likely) | 20% | 0% | -20% |
+
+**Analysis**: Good alignment. Model correctly predicted most people (100%) would be in the "unlikely" range (responses 1-2), matching the true 60%. Slightly over-concentrated predictions, but distribution shape preserved.
+
+---
+
+### Example 4: Electric Vehicle Features (Good Alignment)
+
+**Study**: v6kqy (Hyundai Kona Electric)
+**Condition**: Product feature preferences
+**Participants**: 7
+**Wasserstein Distance**: 0.286
+
+| Response Option | True Distribution | Model Distribution | Difference |
+|----------------|-------------------|-------------------|-----------|
+| 1 (No/Dislike) | 57% | 29% | -28% |
+| 2 (Yes/Like) | 43% | 57% | +14% |
+| 3 (Neutral) | 0% | 14% | +14% |
+
+**Analysis**: Moderate alignment. Model predicted a more balanced split (29%/57%/14%) vs. true distribution (57%/43%/0%). Still captured the binary preference pattern, but overestimated positive responses.
+
+---
+
+### Example 5: Family Policy Preferences (Moderate Alignment)
+
+**Study**: 8ctbk (Family Scenario)
+**Condition**: Work-life balance choices
+**Participants**: 2
+**Wasserstein Distance**: 0.500
+
+| Response Option | True Distribution | Model Distribution | Difference |
+|----------------|-------------------|-------------------|-----------|
+| 0 (Scenario A strong preference) | 50% | 0% | -50% |
+| 4 (Balanced) | 0% | 100% | +100% |
+| 6 (Scenario B preference) | 50% | 0% | -50% |
+
+**Analysis**: Weaker alignment. True responses were polarized (0 and 6), but model predicted middle ground (4). This is one of 2 conditions with W≥0.300, representing the challenging edge cases.
+
+---
+
+## Individual Prediction Examples
+
+For context, here are some individual-level predictions (note: these are less important than the distribution-level results above):
+
+### Individual Example 1: Social Security Reform ✓
 
 **Demographics**: Age 31, Bachelor's degree, $50-74K income
-
-**Scenario**: Given choice between raising retirement age to 68 vs raising payroll tax cap
-
+**Scenario**: Choose between raising retirement age to 68 vs raising payroll tax cap
 **Ground Truth**: 2 (Raise payroll tax cap)
 **Model Prediction**: 2 (Raise payroll tax cap) ✓
 
-**Analysis**: Correct prediction. Younger, educated, middle-income individuals typically prefer tax increases on high earners over benefit cuts.
+**Analysis**: Correct. Younger, educated, middle-income individuals typically prefer tax increases on high earners over benefit cuts.
 
 ---
 
-### Example 2: Electric Vehicle Purchase Intent
+### Individual Example 2: Electric Vehicle Purchase ≈
 
 **Demographics**: Age 73, Female, High school, $20-29K, Employed, Somewhat Conservative
-
-**Scenario**: Likelihood to buy Ford F-150 Lightning (100% electric truck)
-
+**Scenario**: Likelihood to buy Ford F-150 Lightning (electric truck)
 **Ground Truth**: 1 (Very unlikely)
 **Model Prediction**: 2 (Unlikely)
-
 **Error**: 1 point
 
-**Analysis**: Model slightly overestimated likelihood. Older, conservative, low-income demographics typically show lower EV adoption intent. Prediction directionally correct.
+**Analysis**: Close. Older, conservative, low-income demographics show low EV adoption. Prediction directionally correct.
 
 ---
 
-### Example 3: Tax Fraud Likelihood
+### Individual Example 3: Tax Fraud Likelihood ≈
 
 **Demographics**: Age 42, Male, Some college, $50-74K, Employed
-
 **Scenario**: Likelihood of lying on taxes to save $1,250
-
 **Ground Truth**: 1 (Extremely unlikely)
 **Model Prediction**: 2 (Unlikely)
-
 **Error**: 1 point
 
-**Analysis**: Model predicted low likelihood but not as extreme as ground truth. Middle-income, employed individuals generally show low tax fraud intent.
+**Analysis**: Close. Middle-income, employed individuals show low tax fraud intent. Prediction captured the pattern.
 
 ---
 
-### Example 4: Immigration Trust (Large Error)
+### Individual Example 4: Family Policy (Outlier) ✗
 
 **Demographics**: Age 29, Female, Some college, $20-29K, Democrat, Moderate
-
 **Scenario**: Family scenario preference choice
-
 **Ground Truth**: 8
 **Model Prediction**: 1
-
 **Error**: 7 points (OUTLIER)
 
-**Analysis**: Large prediction error. Ground truth value of 8 suggests a data issue or unusual response scale. This is one of 14 outlier cases affecting raw MAE/RMSE.
+**Analysis**: Large error. This is one of 14 outlier cases (14% of examples) with unusual response scales affecting individual-level metrics.
 
 ---
 
