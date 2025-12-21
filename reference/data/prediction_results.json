@@ -1,0 +1,1580 @@
+{
+  "question": "Do you support increasing the federal minimum wage to $15 per hour? (Answer Yes or No, then briefly explain why in 1-2 sentences)",
+  "timestamp": "2025-12-18 06:46:33",
+  "aggregated_results": {
+    "total_responses": 100,
+    "question_type": "yes_no",
+    "overall": {
+      "Yes": 94,
+      "No": 6
+    },
+    "by_age_group": {
+      "18-24": {
+        "Yes": 35,
+        "No": 3
+      },
+      "55-64": {
+        "Yes": 8,
+        "No": 1
+      },
+      "45-54": {
+        "Yes": 10
+      },
+      "65+": {
+        "Yes": 14,
+        "No": 2
+      },
+      "25-34": {
+        "Yes": 18
+      },
+      "35-44": {
+        "Yes": 9
+      }
+    },
+    "by_sex": {
+      "Female": {
+        "Yes": 56
+      },
+      "Male": {
+        "Yes": 38,
+        "No": 6
+      }
+    },
+    "by_education": {
+      "associates": {
+        "Yes": 8
+      },
+      "less_than_9th": {
+        "Yes": 22,
+        "No": 3
+      },
+      "9th_12th_no_diploma": {
+        "Yes": 6
+      },
+      "bachelors": {
+        "Yes": 13
+      },
+      "high_school": {
+        "Yes": 22,
+        "No": 2
+      },
+      "some_college": {
+        "Yes": 14,
+        "No": 1
+      },
+      "graduate": {
+        "Yes": 9
+      }
+    },
+    "by_state": {
+      "WA": {
+        "Yes": 2,
+        "No": 1
+      },
+      "TX": {
+        "Yes": 11
+      },
+      "NC": {
+        "Yes": 4
+      },
+      "OR": {
+        "Yes": 1,
+        "No": 1
+      },
+      "PA": {
+        "Yes": 3
+      },
+      "CA": {
+        "Yes": 16
+      },
+      "MA": {
+        "Yes": 5
+      },
+      "GA": {
+        "Yes": 4
+      },
+      "WI": {
+        "Yes": 3
+      },
+      "AZ": {
+        "No": 1,
+        "Yes": 1
+      },
+      "IN": {
+        "Yes": 2
+      },
+      "DE": {
+        "Yes": 1
+      },
+      "MI": {
+        "Yes": 5
+      },
+      "FL": {
+        "Yes": 5
+      },
+      "MT": {
+        "Yes": 2
+      },
+      "LA": {
+        "Yes": 2,
+        "No": 1
+      },
+      "OK": {
+        "No": 1
+      },
+      "KS": {
+        "No": 1
+      },
+      "MN": {
+        "Yes": 1
+      },
+      "IL": {
+        "Yes": 3
+      },
+      "VA": {
+        "Yes": 1
+      },
+      "NY": {
+        "Yes": 6
+      },
+      "MD": {
+        "Yes": 1
+      },
+      "KY": {
+        "Yes": 2
+      },
+      "DC": {
+        "Yes": 1
+      },
+      "PR": {
+        "Yes": 1
+      },
+      "AL": {
+        "Yes": 2
+      },
+      "CO": {
+        "Yes": 1
+      },
+      "ID": {
+        "Yes": 2
+      },
+      "OH": {
+        "Yes": 2
+      },
+      "SC": {
+        "Yes": 1
+      },
+      "MS": {
+        "Yes": 1
+      },
+      "MO": {
+        "Yes": 1
+      },
+      "NJ": {
+        "Yes": 1
+      }
+    }
+  },
+  "raw_responses": [
+    {
+      "persona_id": "f19ccc1f8b5345caa6ea89ada97a4092",
+      "age": 18,
+      "sex": "Female",
+      "education": "associates",
+      "occupation": "not_in_workforce",
+      "city": "Ellensburg",
+      "state": "WA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many families out of poverty and support local economies. A fair wage would also reflect the rising cost of living, making it easier for people to afford basic necessities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many families out of poverty and support local economies. A fair wage would also reflect the rising cost of living, making it easier for people to afford basic necessities."
+    },
+    {
+      "persona_id": "fcc8c68e977147e2a874755e3f463f82",
+      "age": 12,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Sullivan City",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think increasing the minimum wage to $15 per hour would help workers, especially in places like Sullivan City where costs can be tough. It could help families afford better living conditions and reduce poverty, which is important for our communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think increasing the minimum wage to $15 per hour would help workers, especially in places like Sullivan City where costs can be tough. It could help families afford better living conditions and reduce poverty, which is important for our communities."
+    },
+    {
+      "persona_id": "72d73e3748e44d8fa7ac8dc8e42f0d4b",
+      "age": 1,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Fayetteville",
+      "state": "NC",
+      "marital_status": "never_married",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour would help many families like mine afford basic necessities and improve our quality of life. It's important for workers to earn a livable wage that reflects the rising cost of living.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour would help many families like mine afford basic necessities and improve our quality of life. It's important for workers to earn a livable wage that reflects the rising cost of living."
+    },
+    {
+      "persona_id": "078955adeb484df78b7115368eadbe22",
+      "age": 20,
+      "sex": "Female",
+      "education": "9th_12th_no_diploma",
+      "occupation": "correctional_officer_or_jailer",
+      "city": "Portland",
+      "state": "OR",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it helps ensure that workers can earn a living wage, which is essential for covering basic needs and reducing economic inequality. As someone working in a challenging field, I understand the importance of fair compensation for hard work.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it helps ensure that workers can earn a living wage, which is essential for covering basic needs and reducing economic inequality. As someone working in a challenging field, I understand the importance of fair compensation for hard work."
+    },
+    {
+      "persona_id": "d97dec16cb3046958f9e7ca72ace75e6",
+      "age": 62,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "food_service_manager",
+      "city": "Dallas",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe that a higher federal minimum wage is essential for ensuring that workers can afford basic necessities while promoting a healthier economy. In my experience within the food service industry, fair wages contribute to employee satisfaction and retention, ultimately improving service quality.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that a higher federal minimum wage is essential for ensuring that workers can afford basic necessities while promoting a healthier economy. In my experience within the food service industry, fair wages contribute to employee satisfaction and retention, ultimately improving service quality."
+    },
+    {
+      "persona_id": "527faef6dc3f4309885fe26706c5b3ac",
+      "age": 24,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "electrical_power_line_installer_or_repairer",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe that increasing the minimum wage to $15 per hour is a necessary step to support working families and help them meet the rising cost of living. It can also stimulate the economy by increasing consumers' purchasing power, which can benefit local businesses.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the minimum wage to $15 per hour is a necessary step to support working families and help them meet the rising cost of living. It can also stimulate the economy by increasing consumers' purchasing power, which can benefit local businesses."
+    },
+    {
+      "persona_id": "531a542ff1714bb080d8f06f3cd2daff",
+      "age": 17,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "San Diego",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour would help workers keep up with living costs, especially in areas like San Diego where expenses are high. It could also boost local economies by giving people more spending power.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour would help workers keep up with living costs, especially in areas like San Diego where expenses are high. It could also boost local economies by giving people more spending power."
+    },
+    {
+      "persona_id": "d1407440dc15455a870dbc3e5605979b",
+      "age": 46,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "cashier",
+      "city": "Angier",
+      "state": "NC",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour would help working families like mine make ends meet and ensure that hard work is rewarded fairly. It\u2019s important for all workers to have a living wage that reflects the cost of living and allows them to support their households comfortably.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour would help working families like mine make ends meet and ensure that hard work is rewarded fairly. It\u2019s important for all workers to have a living wage that reflects the cost of living and allows them to support their households comfortably."
+    },
+    {
+      "persona_id": "4913229383014b649940485b3acb73b1",
+      "age": 18,
+      "sex": "Male",
+      "education": "bachelors",
+      "occupation": "not_in_workforce",
+      "city": "Boston",
+      "state": "MA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help lift many workers out of poverty and provide a more livable wage, especially in cities with high living costs like Boston. It also fosters a healthier economy by increasing consumers' purchasing power.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help lift many workers out of poverty and provide a more livable wage, especially in cities with high living costs like Boston. It also fosters a healthier economy by increasing consumers' purchasing power."
+    },
+    {
+      "persona_id": "de1c74355255453dad0e9870410efe1a",
+      "age": 74,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Covington",
+      "state": "GA",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe that raising the minimum wage can help hardworking folks better provide for their families and meet their everyday needs. It\u2019s important for everyone to have a fair chance at a decent living, especially in these times when the cost of living keeps rising.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that raising the minimum wage can help hardworking folks better provide for their families and meet their everyday needs. It\u2019s important for everyone to have a fair chance at a decent living, especially in these times when the cost of living keeps rising."
+    },
+    {
+      "persona_id": "4a7db6a010474c5883a7bd81f70ebf6e",
+      "age": 19,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Milwaukee",
+      "state": "WI",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour would help lift many working individuals and families out of poverty, making it easier for them to meet basic needs. It could also stimulate the economy by enabling people to spend more in their communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour would help lift many working individuals and families out of poverty, making it easier for them to meet basic needs. It could also stimulate the economy by enabling people to spend more in their communities."
+    },
+    {
+      "persona_id": "3bab1a650de445ae88ec28c5536282b2",
+      "age": 19,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "El Paso",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help workers afford basic necessities and reduce poverty. It\u2019s important for everyone to have a living wage, especially in communities like mine where the cost of living can be high.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help workers afford basic necessities and reduce poverty. It\u2019s important for everyone to have a living wage, especially in communities like mine where the cost of living can be high."
+    },
+    {
+      "persona_id": "95c14eefefb64bd78c55f1acc9fe7a34",
+      "age": 72,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Spring",
+      "state": "TX",
+      "marital_status": "married_present",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour would help improve the quality of life for many working families, allowing them to afford basics like food and housing. It's important to ensure that hard work is recognized and compensated fairly in our economy.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour would help improve the quality of life for many working families, allowing them to afford basics like food and housing. It's important to ensure that hard work is recognized and compensated fairly in our economy."
+    },
+    {
+      "persona_id": "5a711d86edf44de7b54465613b1828fb",
+      "age": 59,
+      "sex": "Female",
+      "education": "associates",
+      "occupation": "marketing_manager",
+      "city": "Hanford",
+      "state": "CA",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour is essential for helping working families maintain a decent standard of living, especially in today\u2019s economy. It would provide greater financial stability for many individuals in our community, ultimately driving economic growth.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour is essential for helping working families maintain a decent standard of living, especially in today\u2019s economy. It would provide greater financial stability for many individuals in our community, ultimately driving economic growth."
+    },
+    {
+      "persona_id": "935d50d4e4ea4f4a8b40355ab690b1bf",
+      "age": 60,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Apache Junction",
+      "state": "AZ",
+      "marital_status": "married_present",
+      "response": "**No.** While I understand the need for fair wages, I believe an increase to $15 could burden small businesses and lead to job losses. It's important to find a balance that supports both workers and local economies without causing undue stress on employers.",
+      "success": true,
+      "parsed_answer": "No",
+      "raw_response": "**No.** While I understand the need for fair wages, I believe an increase to $15 could burden small businesses and lead to job losses. It's important to find a balance that supports both workers and local economies without causing undue stress on employers."
+    },
+    {
+      "persona_id": "c750eeb05b9440e79877a7ce3217371a",
+      "age": 26,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "physical_scientist",
+      "city": "Atwater",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "Yes. I believe that increasing the federal minimum wage to $15 an hour can help address income inequality and provide a living wage for workers, which is crucial in supporting families and boosting the local economy, especially in areas like the Central Valley where the cost of living can be challenging.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "Yes. I believe that increasing the federal minimum wage to $15 an hour can help address income inequality and provide a living wage for workers, which is crucial in supporting families and boosting the local economy, especially in areas like the Central Valley where the cost of living can be challenging."
+    },
+    {
+      "persona_id": "188c7cf4d08c465da99604340132fd19",
+      "age": 33,
+      "sex": "Male",
+      "education": "associates",
+      "occupation": "not_in_workforce",
+      "city": "North Attleboro",
+      "state": "MA",
+      "marital_status": "never_married",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is a step towards ensuring that all workers earn a living wage, which can help reduce poverty and improve overall community well-being. It also aligns with my belief in economic empowerment for low-income workers, especially in immigrant communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is a step towards ensuring that all workers earn a living wage, which can help reduce poverty and improve overall community well-being. It also aligns with my belief in economic empowerment for low-income workers, especially in immigrant communities."
+    },
+    {
+      "persona_id": "e7c9dc3edc86436bb0ab71bdefb3d110",
+      "age": 37,
+      "sex": "Female",
+      "education": "associates",
+      "occupation": "massage_therapist",
+      "city": "Indianapolis",
+      "state": "IN",
+      "marital_status": "never_married",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that workers can afford basic necessities, especially in underserved communities where economic disparities are prevalent. It aligns with my values of promoting equity and empowering individuals through fair compensation for their labor.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that workers can afford basic necessities, especially in underserved communities where economic disparities are prevalent. It aligns with my values of promoting equity and empowering individuals through fair compensation for their labor."
+    },
+    {
+      "persona_id": "72672ab44e4b4e40a94e44b91913cfef",
+      "age": 15,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Bear",
+      "state": "DE",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it helps to ensure that everyone can afford basic needs and live with dignity. In today\u2019s economy, it\u2019s important that workers earn enough to support themselves and their families, especially in underserved communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it helps to ensure that everyone can afford basic needs and live with dignity. In today\u2019s economy, it\u2019s important that workers earn enough to support themselves and their families, especially in underserved communities."
+    },
+    {
+      "persona_id": "abd1d304fb8a45d8ab436f3131570d57",
+      "age": 78,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Coalinga",
+      "state": "CA",
+      "marital_status": "married_present",
+      "response": "Yes. I believe that raising the federal minimum wage to $15 per hour would help many hard-working families in our community, allowing them to better afford basic necessities and improve their overall quality of life. Many people, especially in service jobs, struggle to make ends meet, and this increase could provide significant relief.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "Yes. I believe that raising the federal minimum wage to $15 per hour would help many hard-working families in our community, allowing them to better afford basic necessities and improve their overall quality of life. Many people, especially in service jobs, struggle to make ends meet, and this increase could provide significant relief."
+    },
+    {
+      "persona_id": "36028479b327434c897d1d3197b6ca28",
+      "age": 65,
+      "sex": "Female",
+      "education": "graduate",
+      "occupation": "elementary_or_middle_school_teacher",
+      "city": "Sterling Heights",
+      "state": "MI",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour is essential for helping workers maintain a decent standard of living, especially in our current economy where the cost of living is rising. As an educator, I've seen firsthand how many families struggle to make ends meet, and raising the minimum wage can improve their quality of life and reduce financial stress.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour is essential for helping workers maintain a decent standard of living, especially in our current economy where the cost of living is rising. As an educator, I've seen firsthand how many families struggle to make ends meet, and raising the minimum wage can improve their quality of life and reduce financial stress."
+    },
+    {
+      "persona_id": "eb31fcc31eb345acb316d9fc051d6b8e",
+      "age": 0,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Hereford",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think increasing the minimum wage to $15 per hour could help families, like mine, afford basic needs, especially with the rising costs of living. It\u2019s important to support workers in our community so they can provide for their loved ones.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think increasing the minimum wage to $15 per hour could help families, like mine, afford basic needs, especially with the rising costs of living. It\u2019s important to support workers in our community so they can provide for their loved ones."
+    },
+    {
+      "persona_id": "a1006eb46d02423fbb88f3dd33c1ac9f",
+      "age": 76,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Boynton Beach",
+      "state": "FL",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe increasing the federal minimum wage can help many working families meet their basic needs, making it easier for individuals to support themselves and contributing to the overall well-being of our communities. It's important to ensure that hard work is fairly compensated, especially as the cost of living continues to rise.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe increasing the federal minimum wage can help many working families meet their basic needs, making it easier for individuals to support themselves and contributing to the overall well-being of our communities. It's important to ensure that hard work is fairly compensated, especially as the cost of living continues to rise."
+    },
+    {
+      "persona_id": "dde8333d1cec4b8b9d486a36fe51b6f3",
+      "age": 66,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Havre",
+      "state": "MT",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe that raising the federal minimum wage to $15 per hour is important for ensuring that workers can meet their basic needs and support their families, especially in today's economy. A fair wage fosters stronger communities by allowing people to invest more in their local economies.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that raising the federal minimum wage to $15 per hour is important for ensuring that workers can meet their basic needs and support their families, especially in today's economy. A fair wage fosters stronger communities by allowing people to invest more in their local economies."
+    },
+    {
+      "persona_id": "52c801c9194b400c9dc0c86378d7c82d",
+      "age": 19,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "not_in_workforce",
+      "city": "Cary",
+      "state": "NC",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many workers out of poverty and improve their quality of life. Fair wages are essential for fostering economic stability and ensuring that all individuals can meet their basic needs.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many workers out of poverty and improve their quality of life. Fair wages are essential for fostering economic stability and ensuring that all individuals can meet their basic needs."
+    },
+    {
+      "persona_id": "24add69e9430473c9b7073d68713aebb",
+      "age": 4,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Euless",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think people should earn enough money to buy food and toys, just like how my family helps each other. It feels fair to me if everyone can have nice things!",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think people should earn enough money to buy food and toys, just like how my family helps each other. It feels fair to me if everyone can have nice things!"
+    },
+    {
+      "persona_id": "e7c0574639a244c8972c92aab9501035",
+      "age": 28,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "fast_food_or_counter_worker",
+      "city": "Madison",
+      "state": "WI",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour is necessary to help workers afford basic living expenses, especially given the rising cost of living. It would allow more people to support themselves and contribute to their communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour is necessary to help workers afford basic living expenses, especially given the rising cost of living. It would allow more people to support themselves and contribute to their communities."
+    },
+    {
+      "persona_id": "e8b9d4f627764bab903fffc467f1590a",
+      "age": 58,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "painting_worker",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "marital_status": "divorced",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many hardworking people out of poverty and improve their quality of life. I've seen how tough it is to make ends meet, especially in areas like Redondo Beach where the cost of living continues to rise.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many hardworking people out of poverty and improve their quality of life. I've seen how tough it is to make ends meet, especially in areas like Redondo Beach where the cost of living continues to rise."
+    },
+    {
+      "persona_id": "dbed952d9bec40ba80b4715a088c1f74",
+      "age": 52,
+      "sex": "Male",
+      "education": "graduate",
+      "occupation": "elementary_or_middle_school_teacher",
+      "city": "Bloomfield Hills",
+      "state": "MI",
+      "marital_status": "married_present",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that all workers can meet their basic needs, which ultimately benefits the economy by increasing consumer spending. As an educator, I also believe that a fair wage contributes to stronger communities, allowing families to invest in their children's education and well-being.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that all workers can meet their basic needs, which ultimately benefits the economy by increasing consumer spending. As an educator, I also believe that a fair wage contributes to stronger communities, allowing families to invest in their children's education and well-being."
+    },
+    {
+      "persona_id": "9a43cbb670304065a69bfde53f411dac",
+      "age": 69,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "telephone_operator",
+      "city": "Austin",
+      "state": "TX",
+      "marital_status": "divorced",
+      "response": "**Yes.** I believe increasing the federal minimum wage to $15 an hour would provide a stronger safety net for workers, helping them keep up with the rising cost of living. It could also reduce income inequality and boost the economy by increasing workers' purchasing power.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe increasing the federal minimum wage to $15 an hour would provide a stronger safety net for workers, helping them keep up with the rising cost of living. It could also reduce income inequality and boost the economy by increasing workers' purchasing power."
+    },
+    {
+      "persona_id": "bb2ffb6c1c0245c28ffd2b4da70c6668",
+      "age": 51,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "first_line_supervisor_of_food_preparation_or_serving_worker",
+      "city": "Farmington",
+      "state": "MI",
+      "marital_status": "married_present",
+      "response": "Yes. I support raising the federal minimum wage to $15 per hour as it helps provide a more livable income for workers, especially in the food service industry where many rely on tips and face fluctuating hours. A higher minimum wage can contribute to better employee retention and overall job satisfaction.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "Yes. I support raising the federal minimum wage to $15 per hour as it helps provide a more livable income for workers, especially in the food service industry where many rely on tips and face fluctuating hours. A higher minimum wage can contribute to better employee retention and overall job satisfaction."
+    },
+    {
+      "persona_id": "3751d3e035e64593bfd8eb53a8f75020",
+      "age": 26,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "waiter_or_waitress",
+      "city": "Modesto",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour would help lift many workers out of poverty and provide a better quality of life, especially for those in hospitality and service industries like mine. It would also stimulate local economies as people have more income to spend on essential goods and services.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour would help lift many workers out of poverty and provide a better quality of life, especially for those in hospitality and service industries like mine. It would also stimulate local economies as people have more income to spend on essential goods and services."
+    },
+    {
+      "persona_id": "9a38b78931004944aa0228e82b3db184",
+      "age": 32,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "dining_room_or_cafeteria_attendant_or_bartender_helper",
+      "city": "West Monroe",
+      "state": "LA",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe that raising the federal minimum wage to $15 per hour would help many hardworking individuals and families make ends meet, especially in regions where the cost of living is on the rise. It\u2019s important to provide fair wages to support economic growth and improve quality of life for workers.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that raising the federal minimum wage to $15 per hour would help many hardworking individuals and families make ends meet, especially in regions where the cost of living is on the rise. It\u2019s important to provide fair wages to support economic growth and improve quality of life for workers."
+    },
+    {
+      "persona_id": "0e2d3b13dbb74d16a7f43640cd47d571",
+      "age": 73,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "marital_status": "divorced",
+      "response": "No, I don't support increasing the federal minimum wage to $15 per hour. While I believe workers deserve fair pay, I worry that such a significant hike could hurt small businesses and possibly lead to job losses, particularly in our local community where many rely on these jobs to get by.",
+      "success": true,
+      "parsed_answer": "No",
+      "raw_response": "No, I don't support increasing the federal minimum wage to $15 per hour. While I believe workers deserve fair pay, I worry that such a significant hike could hurt small businesses and possibly lead to job losses, particularly in our local community where many rely on these jobs to get by."
+    },
+    {
+      "persona_id": "a364e58fc71a44f7926802e0dc8ac3a0",
+      "age": 1,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Lenexa",
+      "state": "KS",
+      "marital_status": "never_married",
+      "response": "No. As a one-year-old, I don\u2019t really think about wages or jobs yet. But I prefer when adults have enough money to buy me snack food and toys!",
+      "success": true,
+      "parsed_answer": "No",
+      "raw_response": "No. As a one-year-old, I don\u2019t really think about wages or jobs yet. But I prefer when adults have enough money to buy me snack food and toys!"
+    },
+    {
+      "persona_id": "8858f4df0aaa4fffb40eb10ce03f8f57",
+      "age": 8,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Minneapolis",
+      "state": "MN",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think it's important for people to earn enough money to buy the things they need, like food and clothes. It would help families feel more secure and happy, which is good for everyone!",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think it's important for people to earn enough money to buy the things they need, like food and clothes. It would help families feel more secure and happy, which is good for everyone!"
+    },
+    {
+      "persona_id": "58c03faba45d40f79f6dac7c3eb612fd",
+      "age": 47,
+      "sex": "Male",
+      "education": "bachelors",
+      "occupation": "computer_systems_analyst",
+      "city": "Bloomfield Hills",
+      "state": "MI",
+      "marital_status": "married_present",
+      "response": "Yes. I believe increasing the federal minimum wage to $15 per hour can help lift many families out of poverty and provide a more livable wage, which in turn can stimulate local economies and improve community stability. However, it's important to consider the implications for small businesses and the overall impact on job markets.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "Yes. I believe increasing the federal minimum wage to $15 per hour can help lift many families out of poverty and provide a more livable wage, which in turn can stimulate local economies and improve community stability. However, it's important to consider the implications for small businesses and the overall impact on job markets."
+    },
+    {
+      "persona_id": "3952773cce95427aabac82831f21896d",
+      "age": 13,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "East Falmouth",
+      "state": "MA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think increasing the federal minimum wage to $15 per hour can help workers meet their basic needs and reduce poverty. It could also boost the economy as people have more money to spend on goods and services.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think increasing the federal minimum wage to $15 per hour can help workers meet their basic needs and reduce poverty. It could also boost the economy as people have more money to spend on goods and services."
+    },
+    {
+      "persona_id": "202953463f1243d798d4ed09992c7827",
+      "age": 7,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Monroeville",
+      "state": "PA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think people should earn enough money to take care of their families and have a good life. If everyone makes more, they can buy more things and help our community grow!",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think people should earn enough money to take care of their families and have a good life. If everyone makes more, they can buy more things and help our community grow!"
+    },
+    {
+      "persona_id": "4fdc0b8862924332a3ae5523f6a2c696",
+      "age": 70,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "not_in_workforce",
+      "city": "Payson",
+      "state": "AZ",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe raising the minimum wage to $15 per hour is a necessary step to help workers keep pace with the rising cost of living, especially in today\u2019s economic climate. It can provide greater financial stability and improve quality of life for many families.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe raising the minimum wage to $15 per hour is a necessary step to help workers keep pace with the rising cost of living, especially in today\u2019s economic climate. It can provide greater financial stability and improve quality of life for many families."
+    },
+    {
+      "persona_id": "d866de38aeaa4ab5933b5a72f12647e5",
+      "age": 39,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Pompano Beach",
+      "state": "FL",
+      "marital_status": "married_present",
+      "response": "Yes. I support increasing the federal minimum wage to $15 per hour because I believe it can help working families achieve a better standard of living and reduce poverty, which ultimately benefits our communities. Fair wages are important for economic stability and growth.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "Yes. I support increasing the federal minimum wage to $15 per hour because I believe it can help working families achieve a better standard of living and reduce poverty, which ultimately benefits our communities. Fair wages are important for economic stability and growth."
+    },
+    {
+      "persona_id": "306229bb559742a5a589a827f37da19a",
+      "age": 43,
+      "sex": "Female",
+      "education": "graduate",
+      "occupation": "architect",
+      "city": "Elmhurst",
+      "state": "IL",
+      "marital_status": "married_present",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour could help lift many workers out of poverty and decrease reliance on government assistance programs. It also aligns with the rising cost of living and would contribute to a more equitable economic landscape.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour could help lift many workers out of poverty and decrease reliance on government assistance programs. It also aligns with the rising cost of living and would contribute to a more equitable economic landscape."
+    },
+    {
+      "persona_id": "8c2e19172e004d1f90c15b73a89e104c",
+      "age": 41,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "public_safety_telecommunicator",
+      "city": "Glen Allen",
+      "state": "VA",
+      "marital_status": "married_present",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many families out of poverty and ensure a living wage that reflects the rising cost of living. This adjustment would not only benefit workers but also stimulate local economies by increasing consumer spending.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many families out of poverty and ensure a living wage that reflects the rising cost of living. This adjustment would not only benefit workers but also stimulate local economies by increasing consumer spending."
+    },
+    {
+      "persona_id": "33f3ac37c7a54d59add8c203a508d6ab",
+      "age": 27,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "office_clerk_general",
+      "city": "Worcester",
+      "state": "MA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour is important for improving the living standards of many workers, especially in areas where the cost of living has risen significantly. This increase can help reduce poverty and allow more people to meet their basic needs.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour is important for improving the living standards of many workers, especially in areas where the cost of living has risen significantly. This increase can help reduce poverty and allow more people to meet their basic needs."
+    },
+    {
+      "persona_id": "f2fbabf1053d4aa2aee2376aaa451cb5",
+      "age": 25,
+      "sex": "Male",
+      "education": "associates",
+      "occupation": "security_guard_or_gambling_surveillance_officer",
+      "city": "Pittsburg",
+      "state": "CA",
+      "marital_status": "married_present",
+      "response": "**Yes.** I think raising the federal minimum wage to $15 would help a lot of working families make ends meet, especially in areas like the Bay where the cost of living is high. It also supports a stronger economy by increasing consumer spending as people have more disposable income.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think raising the federal minimum wage to $15 would help a lot of working families make ends meet, especially in areas like the Bay where the cost of living is high. It also supports a stronger economy by increasing consumer spending as people have more disposable income."
+    },
+    {
+      "persona_id": "50f90a6f17de473f9ca15f00afdedf7a",
+      "age": 29,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "computer_or_information_research_scientist",
+      "city": "Chico",
+      "state": "CA",
+      "marital_status": "divorced",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many families out of poverty and ensure that workers earn a living wage that reflects the rising cost of living. As someone who values community and resilience, I believe equitable compensation is essential for fostering a healthier society.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many families out of poverty and ensure that workers earn a living wage that reflects the rising cost of living. As someone who values community and resilience, I believe equitable compensation is essential for fostering a healthier society."
+    },
+    {
+      "persona_id": "25d5a3da89f54bbebe985e5a798edb15",
+      "age": 10,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Brooklyn",
+      "state": "NY",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think it\u2019s important for workers to earn enough to support themselves and their families. If people make more money, they can spend it in their communities, which helps everyone!",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think it\u2019s important for workers to earn enough to support themselves and their families. If people make more money, they can spend it in their communities, which helps everyone!"
+    },
+    {
+      "persona_id": "f2f5dbaf4d3d43f68adeb7f318afa3a2",
+      "age": 85,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "not_in_workforce",
+      "city": "Saline",
+      "state": "MI",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe that raising the federal minimum wage to $15 per hour would provide working families with a better chance at financial stability, which is especially important in today\u2019s economy. It might help reduce reliance on food banks and assistance programs, allowing people to support themselves more effectively.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that raising the federal minimum wage to $15 per hour would provide working families with a better chance at financial stability, which is especially important in today\u2019s economy. It might help reduce reliance on food banks and assistance programs, allowing people to support themselves more effectively."
+    },
+    {
+      "persona_id": "a4a4267ebcff4e92b9ab86257058cb5f",
+      "age": 16,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Alexandria",
+      "state": "LA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think raising the minimum wage to $15 is important because it would help many families, including mine, afford basic needs like food and housing. It's about ensuring everyone can live with dignity and support their loved ones.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think raising the minimum wage to $15 is important because it would help many families, including mine, afford basic needs like food and housing. It's about ensuring everyone can live with dignity and support their loved ones."
+    },
+    {
+      "persona_id": "01b0d4d48fec4e20a068699d8fb1a8e2",
+      "age": 51,
+      "sex": "Female",
+      "education": "graduate",
+      "occupation": "financial_manager",
+      "city": "Bel Air",
+      "state": "MD",
+      "marital_status": "married_present",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that working individuals can meet their basic needs and contribute positively to the economy. It promotes fairness and helps reduce income inequality, which aligns with my values around community support and economic stability.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that working individuals can meet their basic needs and contribute positively to the economy. It promotes fairness and helps reduce income inequality, which aligns with my values around community support and economic stability."
+    },
+    {
+      "persona_id": "5e7132dcc2fb47caba7b5bdfdc77fb24",
+      "age": 5,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Quitman",
+      "state": "LA",
+      "marital_status": "never_married",
+      "response": "**No.** I think that having more money is good, but it can make things like toys and snacks cost more too, and that might make it harder for my family and friends to get what they need. Also, sometimes it\u2019s better to work hard for what you want!",
+      "success": true,
+      "parsed_answer": "No",
+      "raw_response": "**No.** I think that having more money is good, but it can make things like toys and snacks cost more too, and that might make it harder for my family and friends to get what they need. Also, sometimes it\u2019s better to work hard for what you want!"
+    },
+    {
+      "persona_id": "83ac74ececce47fea7bf26b33b771077",
+      "age": 20,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Lexington",
+      "state": "KY",
+      "marital_status": "never_married",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that workers can meet their basic needs and contribute to their communities. In my view, a living wage helps support families and strengthens the local economy, fostering a more equitable society.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that workers can meet their basic needs and contribute to their communities. In my view, a living wage helps support families and strengthens the local economy, fostering a more equitable society."
+    },
+    {
+      "persona_id": "c488d364125147a48b46e7aadd7fb578",
+      "age": 13,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Sherburne",
+      "state": "NY",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think raising the federal minimum wage to $15 per hour would help many people afford basic necessities and reduce poverty. It could also stimulate local economies, especially in smaller towns like mine, where many jobs don't pay enough to support a family.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think raising the federal minimum wage to $15 per hour would help many people afford basic necessities and reduce poverty. It could also stimulate local economies, especially in smaller towns like mine, where many jobs don't pay enough to support a family."
+    },
+    {
+      "persona_id": "866d3bfd9060413caef42d80d52ae10a",
+      "age": 77,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Taunton",
+      "state": "MA",
+      "marital_status": "married_present",
+      "response": "Yes. I believe that raising the minimum wage to $15 per hour would help many hardworking individuals and families better support themselves, especially in today\u2019s economy. It\u2019s essential to ensure that all workers earn a livable income.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "Yes. I believe that raising the minimum wage to $15 per hour would help many hardworking individuals and families better support themselves, especially in today\u2019s economy. It\u2019s essential to ensure that all workers earn a livable income."
+    },
+    {
+      "persona_id": "e4cc52624842450b80da0a10a4014f67",
+      "age": 38,
+      "sex": "Female",
+      "education": "graduate",
+      "occupation": "software_developer",
+      "city": "Washington",
+      "state": "DC",
+      "marital_status": "married_present",
+      "response": "**Yes.** \n\nI believe increasing the federal minimum wage to $15 per hour is a necessary step to ensure a living wage for all workers, especially in high-cost areas like Washington, DC. It can help reduce poverty, stimulate the economy, and create a more equitable society.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** \n\nI believe increasing the federal minimum wage to $15 per hour is a necessary step to ensure a living wage for all workers, especially in high-cost areas like Washington, DC. It can help reduce poverty, stimulate the economy, and create a more equitable society."
+    },
+    {
+      "persona_id": "7c5cd3ce691b4f43979b415e5971ffe5",
+      "age": 4,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "San Juan",
+      "state": "PR",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think people should get paid enough money for their work so they can buy things like food and toys. It helps families have a better life if they earn more.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think people should get paid enough money for their work so they can buy things like food and toys. It helps families have a better life if they earn more."
+    },
+    {
+      "persona_id": "5237e90a0ca3460dbbcba20adb61922f",
+      "age": 34,
+      "sex": "Female",
+      "education": "9th_12th_no_diploma",
+      "occupation": "no_occupation",
+      "city": "Lilburn",
+      "state": "GA",
+      "marital_status": "married_present",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is important for helping working families meet their basic needs and can boost local economies. In a community like Lilburn, fair wages would empower more people to support local businesses and contribute to a stronger, healthier community.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is important for helping working families meet their basic needs and can boost local economies. In a community like Lilburn, fair wages would empower more people to support local businesses and contribute to a stronger, healthier community."
+    },
+    {
+      "persona_id": "462c2ac6f3eb490fbabd979a0f20740d",
+      "age": 67,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "not_in_workforce",
+      "city": "Carlsbad",
+      "state": "CA",
+      "marital_status": "widowed",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for helping families meet basic living expenses, especially in today's economy where the cost of living continues to rise. It would also benefit the community by allowing more individuals to contribute to local businesses.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for helping families meet basic living expenses, especially in today's economy where the cost of living continues to rise. It would also benefit the community by allowing more individuals to contribute to local businesses."
+    },
+    {
+      "persona_id": "cec209123a3c4b1686bfaa1289c451cb",
+      "age": 30,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "engineer",
+      "city": "Shepherdsville",
+      "state": "KY",
+      "marital_status": "divorced",
+      "response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour can help lift many working people out of poverty and ensure they can meet basic living expenses. This change could also stimulate local economies, as individuals with more purchasing power tend to spend more in their communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour can help lift many working people out of poverty and ensure they can meet basic living expenses. This change could also stimulate local economies, as individuals with more purchasing power tend to spend more in their communities."
+    },
+    {
+      "persona_id": "e7035edf5bc744c9912694a7d4b2a99c",
+      "age": 49,
+      "sex": "Male",
+      "education": "graduate",
+      "occupation": "not_in_workforce",
+      "city": "Rochester",
+      "state": "NY",
+      "marital_status": "divorced",
+      "response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour is essential for promoting economic equity and allowing workers to meet their basic needs. It could positively impact local economies by increasing consumer spending, which is vital for communities like Rochester.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour is essential for promoting economic equity and allowing workers to meet their basic needs. It could positively impact local economies by increasing consumer spending, which is vital for communities like Rochester."
+    },
+    {
+      "persona_id": "1d6c953d92be4090a20ff96d1cb12e81",
+      "age": 17,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "La Verne",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help lift many workers, especially those in low-income communities, out of poverty and allow them to better support themselves and their families. It\u2019s important for everyone to be able to earn a living wage to cover basic needs and pursue their dreams.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help lift many workers, especially those in low-income communities, out of poverty and allow them to better support themselves and their families. It\u2019s important for everyone to be able to earn a living wage to cover basic needs and pursue their dreams."
+    },
+    {
+      "persona_id": "cc3bced56fdd4120a84ce738286d4abb",
+      "age": 21,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "nursing_assistant",
+      "city": "Jacksonville",
+      "state": "FL",
+      "marital_status": "never_married",
+      "response": "Yes. I support increasing the federal minimum wage to $15 per hour because it helps ensure that workers can afford basic necessities and promotes equity, especially for those in underserved communities who often face economic challenges. It's essential for uplifting families and improving quality of life.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "Yes. I support increasing the federal minimum wage to $15 per hour because it helps ensure that workers can afford basic necessities and promotes equity, especially for those in underserved communities who often face economic challenges. It's essential for uplifting families and improving quality of life."
+    },
+    {
+      "persona_id": "a979cdc1dbcc4a68b2bdd8ddeac80e9f",
+      "age": 2,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Kennewick",
+      "state": "WA",
+      "marital_status": "never_married",
+      "response": "No. I don\u2019t really understand money stuff yet, but I think everyone should be able to buy toys and snacks easily, so it seems good for grown-ups to earn more.",
+      "success": true,
+      "parsed_answer": "No",
+      "raw_response": "No. I don\u2019t really understand money stuff yet, but I think everyone should be able to buy toys and snacks easily, so it seems good for grown-ups to earn more."
+    },
+    {
+      "persona_id": "d59a8cf61ec54de199a3640e506ae608",
+      "age": 75,
+      "sex": "Male",
+      "education": "9th_12th_no_diploma",
+      "occupation": "not_in_workforce",
+      "city": "Puyallup",
+      "state": "WA",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour would help support families and individuals struggling to make ends meet, especially with the rising cost of living. People deserve a fair wage for their hard work, allowing them a better chance at a stable life.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour would help support families and individuals struggling to make ends meet, especially with the rising cost of living. People deserve a fair wage for their hard work, allowing them a better chance at a stable life."
+    },
+    {
+      "persona_id": "9fffe766271d41b1a93aeb3f4cf523d2",
+      "age": 27,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "driver_sales_worker_or_truck_driver",
+      "city": "Sumiton",
+      "state": "AL",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it aligns more closely with the current cost of living and can help lift many families, including those in my community, out of poverty. Everyone should be able to earn a living wage that reflects the value of their work.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it aligns more closely with the current cost of living and can help lift many families, including those in my community, out of poverty. Everyone should be able to earn a living wage that reflects the value of their work."
+    },
+    {
+      "persona_id": "d58d3c409dc44d8c8a2d4391f7b58c2e",
+      "age": 61,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "personal_care_aide",
+      "city": "Morton Grove",
+      "state": "IL",
+      "marital_status": "married_present",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many working families out of poverty and improve their quality of life. As a personal care aide, I understand the importance of fair compensation for essential work that contributes to our communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it can help lift many working families out of poverty and improve their quality of life. As a personal care aide, I understand the importance of fair compensation for essential work that contributes to our communities."
+    },
+    {
+      "persona_id": "2514b1dd5536430d8f504e5057293c2e",
+      "age": 7,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think it's important for people to earn enough money to take care of themselves and their families. If workers get paid more, they can buy what they need and be happier.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think it's important for people to earn enough money to take care of themselves and their families. If workers get paid more, they can buy what they need and be happier."
+    },
+    {
+      "persona_id": "9485b0e97a604fa39c8739fe524d13dd",
+      "age": 28,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "industrial_truck_or_tractor_operator",
+      "city": "Denver",
+      "state": "CO",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour is necessary to ensure that workers can meet their basic living expenses, especially as the cost of living continues to rise. It's essential for creating a more equitable economy where everyone has a fair chance to thrive.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour is necessary to ensure that workers can meet their basic living expenses, especially as the cost of living continues to rise. It's essential for creating a more equitable economy where everyone has a fair chance to thrive."
+    },
+    {
+      "persona_id": "33fab35062c94a3a986db018cf7ad130",
+      "age": 26,
+      "sex": "Male",
+      "education": "graduate",
+      "occupation": "postsecondary_teacher",
+      "city": "Long Beach",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that workers can meet their basic needs and reducing poverty, especially in regions with a high cost of living like California. It also promotes economic stability and equity, which aligns with my commitment to cultural equity and social justice.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that workers can meet their basic needs and reducing poverty, especially in regions with a high cost of living like California. It also promotes economic stability and equity, which aligns with my commitment to cultural equity and social justice."
+    },
+    {
+      "persona_id": "6c46851262b44c739e976eda5d8341e2",
+      "age": 59,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "painting_worker",
+      "city": "Seal Beach",
+      "state": "CA",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe that raising the federal minimum wage to $15 per hour is necessary to ensure a living wage for workers, especially in a time when costs of living continue to rise. It would help support families and stimulate the economy by allowing workers to spend more in their communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that raising the federal minimum wage to $15 per hour is necessary to ensure a living wage for workers, especially in a time when costs of living continue to rise. It would help support families and stimulate the economy by allowing workers to spend more in their communities."
+    },
+    {
+      "persona_id": "f0b90da25a244a1f9b9c6616cadd65e9",
+      "age": 65,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "not_in_workforce",
+      "city": "Spirit Lake",
+      "state": "ID",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe that increasing the federal minimum wage can help improve the standard of living for many working families. It also supports local economies, as people would have more discretionary income to spend in their communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage can help improve the standard of living for many working families. It also supports local economies, as people would have more discretionary income to spend in their communities."
+    },
+    {
+      "persona_id": "ddf1acf224ff464a99a667ccaefe0da8",
+      "age": 39,
+      "sex": "Male",
+      "education": "bachelors",
+      "occupation": "civil_engineer",
+      "city": "Menomonee Falls",
+      "state": "WI",
+      "marital_status": "married_present",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is important for promoting economic stability and ensuring workers can afford basic necessities. It would benefit many families and contribute to a more equitable society, especially in communities where the cost of living continues to rise.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is important for promoting economic stability and ensuring workers can afford basic necessities. It would benefit many families and contribute to a more equitable society, especially in communities where the cost of living continues to rise."
+    },
+    {
+      "persona_id": "4e5c3849a891432ba547a645a6e4be06",
+      "age": 57,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "mathematical_science_occupation",
+      "city": "Houston",
+      "state": "TX",
+      "marital_status": "married_present",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is important to help workers meet the rising costs of living, especially for those in low-wage jobs. It can lead to a more equitable economy and improve the quality of life for many families, including those in our community.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is important to help workers meet the rising costs of living, especially for those in low-wage jobs. It can lead to a more equitable economy and improve the quality of life for many families, including those in our community."
+    },
+    {
+      "persona_id": "4ddaf4c17316485982401f7c1221bfb4",
+      "age": 67,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "not_in_workforce",
+      "city": "Fairview",
+      "state": "OR",
+      "marital_status": "married_present",
+      "response": "**No.** While I understand the need for workers to earn a living wage, I worry that a sudden increase to $15 may place undue pressure on small businesses, leading to potential layoffs or reduced hiring. A more gradual approach would allow time for businesses to adjust while still supporting workers.",
+      "success": true,
+      "parsed_answer": "No",
+      "raw_response": "**No.** While I understand the need for workers to earn a living wage, I worry that a sudden increase to $15 may place undue pressure on small businesses, leading to potential layoffs or reduced hiring. A more gradual approach would allow time for businesses to adjust while still supporting workers."
+    },
+    {
+      "persona_id": "78e5590f31e04d70a15bb8b80eba8781",
+      "age": 36,
+      "sex": "Male",
+      "education": "bachelors",
+      "occupation": "sales_manager",
+      "city": "Columbus",
+      "state": "OH",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour would help lift many workers out of poverty and stimulate economic growth by increasing consumer spending. It's essential to ensure that wages reflect the cost of living and support a decent quality of life for all workers.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour would help lift many workers out of poverty and stimulate economic growth by increasing consumer spending. It's essential to ensure that wages reflect the cost of living and support a decent quality of life for all workers."
+    },
+    {
+      "persona_id": "255a519d8d6e4460b3beeab84c08be55",
+      "age": 50,
+      "sex": "Male",
+      "education": "associates",
+      "occupation": "software_developer",
+      "city": "Livingston",
+      "state": "MT",
+      "marital_status": "married_present",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour could help alleviate financial stress for many working families, which is important for community stability. However, it's crucial to consider how it might impact small businesses and the job market in areas like Livingston.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour could help alleviate financial stress for many working families, which is important for community stability. However, it's crucial to consider how it might impact small businesses and the job market in areas like Livingston."
+    },
+    {
+      "persona_id": "c8f64324f09447879b996e99f49a526a",
+      "age": 19,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Orangeburg",
+      "state": "SC",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help lift many working families out of poverty and ensure that their hard work is fairly compensated. It\u2019s essential to create a living wage that allows people to meet their basic needs, especially in today's economy.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help lift many working families out of poverty and ensure that their hard work is fairly compensated. It\u2019s essential to create a living wage that allows people to meet their basic needs, especially in today's economy."
+    },
+    {
+      "persona_id": "8ab13dd84a2649998f9d18fdac98500d",
+      "age": 31,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "construction_laborer",
+      "city": "San Dimas",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour would help workers keep up with rising living costs, especially in areas like California where expenses are high. It fosters a sense of fairness and ensures that hard work is appropriately rewarded.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe increasing the federal minimum wage to $15 per hour would help workers keep up with rising living costs, especially in areas like California where expenses are high. It fosters a sense of fairness and ensures that hard work is appropriately rewarded."
+    },
+    {
+      "persona_id": "36312309e76640b88d4739110f21ce47",
+      "age": 76,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "preschool_or_kindergarten_teacher",
+      "city": "Houston",
+      "state": "TX",
+      "marital_status": "divorced",
+      "response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour would help lift many families out of poverty, providing them with more financial stability. It\u2019s important for workers to earn a living wage that reflects the rising costs of living, especially for those supporting children or elderly family members.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour would help lift many families out of poverty, providing them with more financial stability. It\u2019s important for workers to earn a living wage that reflects the rising costs of living, especially for those supporting children or elderly family members."
+    },
+    {
+      "persona_id": "0c66dcc7cb914fecaed9ca1be9e8d842",
+      "age": 23,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "retail_salesperson",
+      "city": "Yuba City",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help lift many workers, especially those in retail and service industries, out of poverty and provide a better quality of life. With rising living costs, it\u2019s important for wages to reflect the basic needs of workers and their families.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help lift many workers, especially those in retail and service industries, out of poverty and provide a better quality of life. With rising living costs, it\u2019s important for wages to reflect the basic needs of workers and their families."
+    },
+    {
+      "persona_id": "68913ebfbcc3476498e19dc33ca4729c",
+      "age": 62,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "insurance_sales_agent",
+      "city": "Springtown",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour is essential for providing workers with a living wage that can keep up with rising living costs. It's important for fostering economic stability and helping families thrive, especially in communities where many rely on these jobs.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour is essential for providing workers with a living wage that can keep up with rising living costs. It's important for fostering economic stability and helping families thrive, especially in communities where many rely on these jobs."
+    },
+    {
+      "persona_id": "b393ef6a3f294337ba31e078fe7631d5",
+      "age": 21,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "not_in_workforce",
+      "city": "Paso Robles",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help ensure that workers can better support themselves and their families, especially in areas with a high cost of living. A fair wage is important for promoting social equity and encouraging local economic growth.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it would help ensure that workers can better support themselves and their families, especially in areas with a high cost of living. A fair wage is important for promoting social equity and encouraging local economic growth."
+    },
+    {
+      "persona_id": "f2028fc8c5c84d31ac58327a561bd3b6",
+      "age": 49,
+      "sex": "Female",
+      "education": "9th_12th_no_diploma",
+      "occupation": "not_in_workforce",
+      "city": "Moss Point",
+      "state": "MS",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe that raising the federal minimum wage to $15 per hour would help working families meet their basic needs, especially in our community where the cost of living can be tough. It can also stimulate local economies by putting more money in the hands of those who spend it right here at home.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that raising the federal minimum wage to $15 per hour would help working families meet their basic needs, especially in our community where the cost of living can be tough. It can also stimulate local economies by putting more money in the hands of those who spend it right here at home."
+    },
+    {
+      "persona_id": "9db61a6cad314a4c9bfdc3803e848771",
+      "age": 32,
+      "sex": "Female",
+      "education": "associates",
+      "occupation": "secretary_or_administrative_assistant",
+      "city": "Silex",
+      "state": "MO",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe increasing the minimum wage to $15 per hour is essential for helping workers keep up with the rising cost of living. It can also boost local economies as people will have more disposable income to spend in their communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe increasing the minimum wage to $15 per hour is essential for helping workers keep up with the rising cost of living. It can also boost local economies as people will have more disposable income to spend in their communities."
+    },
+    {
+      "persona_id": "62dd72a8a64c4c8196feee2dbfbc455f",
+      "age": 57,
+      "sex": "Male",
+      "education": "graduate",
+      "occupation": "database_administrator_or_architect",
+      "city": "Little Neck",
+      "state": "NY",
+      "marital_status": "married_present",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is important for ensuring that workers can meet basic living expenses, especially in a high-cost area like New York. It promotes a fairer economy where all individuals can thrive and contribute to their communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is important for ensuring that workers can meet basic living expenses, especially in a high-cost area like New York. It promotes a fairer economy where all individuals can thrive and contribute to their communities."
+    },
+    {
+      "persona_id": "f00db7d331e74b86a2491741396a9644",
+      "age": 40,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "network_or_computer_systems_administrator",
+      "city": "Glassboro",
+      "state": "NJ",
+      "marital_status": "never_married",
+      "response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it helps ensure that workers can meet basic living expenses, contributing to economic stability for families and communities. It's essential for reducing income inequality and supporting those who are struggling to make ends meet.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I support increasing the federal minimum wage to $15 per hour because it helps ensure that workers can meet basic living expenses, contributing to economic stability for families and communities. It's essential for reducing income inequality and supporting those who are struggling to make ends meet."
+    },
+    {
+      "persona_id": "cc086016d63c48b79246de8e710ec6b7",
+      "age": 23,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "dental_assistant",
+      "city": "Hardin",
+      "state": "IL",
+      "marital_status": "never_married",
+      "response": "Yes. I support increasing the federal minimum wage to $15 per hour because it can help ensure that workers can afford basic living expenses, especially in rural areas like mine where many jobs don\u2019t pay well enough. Fair wages are important for a healthy community and economy.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "Yes. I support increasing the federal minimum wage to $15 per hour because it can help ensure that workers can afford basic living expenses, especially in rural areas like mine where many jobs don\u2019t pay well enough. Fair wages are important for a healthy community and economy."
+    },
+    {
+      "persona_id": "d5fe5ee20e6c4686af68be4c6f4c79b3",
+      "age": 34,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "accountant_or_auditor",
+      "city": "West Chester",
+      "state": "PA",
+      "marital_status": "never_married",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that workers can meet their basic living expenses, especially in today's economy. It would help reduce poverty and boost consumer spending, benefiting both families and local communities.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential for ensuring that workers can meet their basic living expenses, especially in today's economy. It would help reduce poverty and boost consumer spending, benefiting both families and local communities."
+    },
+    {
+      "persona_id": "c74fc3f9e84849b8a9f9ed857807c68f",
+      "age": 49,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Queens Village",
+      "state": "NY",
+      "marital_status": "married_present",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential to help workers keep up with the rising cost of living, especially in diverse areas like Queens. It would support families and contribute to a stronger local economy by increasing spending power.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour is essential to help workers keep up with the rising cost of living, especially in diverse areas like Queens. It would support families and contribute to a stronger local economy by increasing spending power."
+    },
+    {
+      "persona_id": "92d0a5debc064decbf02f9694c7ffcc5",
+      "age": 22,
+      "sex": "Male",
+      "education": "9th_12th_no_diploma",
+      "occupation": "assembler_or_fabricator",
+      "city": "Coeur D Alene",
+      "state": "ID",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think raising the federal minimum wage to $15 could help workers better afford basic living costs, especially in places where expenses are steadily increasing. It's important to ensure everyone can make a decent living while contributing to the economy.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think raising the federal minimum wage to $15 could help workers better afford basic living costs, especially in places where expenses are steadily increasing. It's important to ensure everyone can make a decent living while contributing to the economy."
+    },
+    {
+      "persona_id": "586295bacd314981b5671e5b50cbed37",
+      "age": 24,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Huntsville",
+      "state": "AL",
+      "marital_status": "never_married",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour could help lift many workers out of poverty, ensuring they can better support themselves and their families, which aligns with my values of community and economic opportunity. It's important to address the rising cost of living and ensure fair compensation for hard work.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour could help lift many workers out of poverty, ensuring they can better support themselves and their families, which aligns with my values of community and economic opportunity. It's important to address the rising cost of living and ensure fair compensation for hard work."
+    },
+    {
+      "persona_id": "383fb54eea8a4775a0f973df0a1e5509",
+      "age": 39,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "sales_representative_of_services",
+      "city": "Hialeah",
+      "state": "FL",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe raising the federal minimum wage to $15 per hour is essential for helping working-class individuals support themselves and their families, especially in areas with high living costs like South Florida. It would also help close the wage gap and stimulate local economies by increasing consumer spending.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe raising the federal minimum wage to $15 per hour is essential for helping working-class individuals support themselves and their families, especially in areas with high living costs like South Florida. It would also help close the wage gap and stimulate local economies by increasing consumer spending."
+    },
+    {
+      "persona_id": "5c7a4c6bd931407eb9390abd911ce338",
+      "age": 31,
+      "sex": "Male",
+      "education": "associates",
+      "occupation": "home_appliance_repairer",
+      "city": "Amsterdam",
+      "state": "NY",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe raising the federal minimum wage to $15 per hour is important for ensuring that workers can meet their basic needs and contribute to a more stable economy. It could also help level the playing field for people in low-wage industries, promoting a fairer work environment.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe raising the federal minimum wage to $15 per hour is important for ensuring that workers can meet their basic needs and contribute to a more stable economy. It could also help level the playing field for people in low-wage industries, promoting a fairer work environment."
+    },
+    {
+      "persona_id": "c71f03be88544ab2b6fb8ac2936c12d2",
+      "age": 8,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Warsaw",
+      "state": "IN",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think it would help people earn enough money for their needs, like buying food and taking care of their families. Everyone deserves to have a fair chance to be happy and healthy!",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think it would help people earn enough money for their needs, like buying food and taking care of their families. Everyone deserves to have a fair chance to be happy and healthy!"
+    },
+    {
+      "persona_id": "ce96d3bc935443daa12f97fa6f2902ae",
+      "age": 1,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Monroe",
+      "state": "OH",
+      "marital_status": "never_married",
+      "response": "Yes. I think everyone should get enough money to take care of their needs and have a better life. It helps families and communities when people earn enough to live comfortably.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "Yes. I think everyone should get enough money to take care of their needs and have a better life. It helps families and communities when people earn enough to live comfortably."
+    },
+    {
+      "persona_id": "8a3a330d3edd4a3f883fcb736afe3516",
+      "age": 20,
+      "sex": "Female",
+      "education": "9th_12th_no_diploma",
+      "occupation": "host_or_hostess_restaurant_lounge_or_coffee_shop",
+      "city": "Fountain Valley",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour would provide more financial stability for workers, especially those in hospitality like me, where tips can be unpredictable. It would also help reduce poverty and improve the overall standard of living for many families.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe that increasing the federal minimum wage to $15 per hour would provide more financial stability for workers, especially those in hospitality like me, where tips can be unpredictable. It would also help reduce poverty and improve the overall standard of living for many families."
+    },
+    {
+      "persona_id": "bd26ad126dd5433982e43c255f8a559b",
+      "age": 9,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Royse City",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Yes.** I think it would help people earn enough money to live better lives and take care of their families. It seems fair that everyone should be paid enough for the work they do.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I think it would help people earn enough money to live better lives and take care of their families. It seems fair that everyone should be paid enough for the work they do."
+    },
+    {
+      "persona_id": "78c87c61dcfb4347a0a83b8eb5778c3e",
+      "age": 54,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "emergency_medical_technician",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "marital_status": "married_present",
+      "response": "**Yes.** I believe raising the federal minimum wage to $15 per hour is essential for ensuring that working families can afford basic necessities and reduce poverty. It's particularly important in communities like mine, where living costs can often outpace wages, leading to disparities in health and opportunity.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** I believe raising the federal minimum wage to $15 per hour is essential for ensuring that working families can afford basic necessities and reduce poverty. It's particularly important in communities like mine, where living costs can often outpace wages, leading to disparities in health and opportunity."
+    },
+    {
+      "persona_id": "daf1f3f963294f74ab1ee61533a05db6",
+      "age": 34,
+      "sex": "Female",
+      "education": "graduate",
+      "occupation": "financial_manager",
+      "city": "Lilburn",
+      "state": "GA",
+      "marital_status": "never_married",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour would help lift workers out of poverty, improve their quality of life, and stimulate local economies, especially in communities like mine where many families struggle to make ends meet. It's an essential step towards ensuring fair wages that reflect the rising cost of living.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour would help lift workers out of poverty, improve their quality of life, and stimulate local economies, especially in communities like mine where many families struggle to make ends meet. It's an essential step towards ensuring fair wages that reflect the rising cost of living."
+    },
+    {
+      "persona_id": "e439d23e891d40a683c73ab75828f4d6",
+      "age": 21,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "electrician",
+      "city": "Greensboro",
+      "state": "NC",
+      "marital_status": "never_married",
+      "response": "**Yes.** Increasing the federal minimum wage to $15 per hour can help workers keep up with the rising cost of living, and it may reduce poverty levels. As someone who's passionate about fair wages, I believe it can also benefit local economies by increasing spending power.",
+      "success": true,
+      "parsed_answer": "Yes",
+      "raw_response": "**Yes.** Increasing the federal minimum wage to $15 per hour can help workers keep up with the rising cost of living, and it may reduce poverty levels. As someone who's passionate about fair wages, I believe it can also benefit local economies by increasing spending power."
+    }
+  ]
+}

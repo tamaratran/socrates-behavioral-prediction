@@ -1,0 +1,1501 @@
+{
+  "question": "Do you approve or disapprove of the way Congress is handling its job? (Answer Approve or Disapprove, then briefly explain why in 1-2 sentences)",
+  "question_type": "yes_no",
+  "timestamp": "2025-12-18 06:55:42",
+  "query_time_seconds": 92.74537110328674,
+  "success_rate": "95/100",
+  "aggregated_results": {
+    "total_responses": 95,
+    "question_type": "yes_no",
+    "overall": {
+      "Unclear": 95
+    },
+    "by_age_group": {
+      "45-54": {
+        "Unclear": 10
+      },
+      "18-24": {
+        "Unclear": 37
+      },
+      "55-64": {
+        "Unclear": 9
+      },
+      "25-34": {
+        "Unclear": 17
+      },
+      "65+": {
+        "Unclear": 14
+      },
+      "35-44": {
+        "Unclear": 8
+      }
+    },
+    "by_sex": {
+      "Male": {
+        "Unclear": 41
+      },
+      "Female": {
+        "Unclear": 54
+      }
+    },
+    "by_education": {
+      "some_college": {
+        "Unclear": 15
+      },
+      "associates": {
+        "Unclear": 6
+      },
+      "high_school": {
+        "Unclear": 22
+      },
+      "bachelors": {
+        "Unclear": 13
+      },
+      "9th_12th_no_diploma": {
+        "Unclear": 6
+      },
+      "less_than_9th": {
+        "Unclear": 24
+      },
+      "graduate": {
+        "Unclear": 9
+      }
+    },
+    "by_state": {
+      "NC": {
+        "Unclear": 4
+      },
+      "WA": {
+        "Unclear": 3
+      },
+      "PA": {
+        "Unclear": 3
+      },
+      "TX": {
+        "Unclear": 10
+      },
+      "OR": {
+        "Unclear": 2
+      },
+      "CA": {
+        "Unclear": 15
+      },
+      "AZ": {
+        "Unclear": 2
+      },
+      "MA": {
+        "Unclear": 4
+      },
+      "WI": {
+        "Unclear": 3
+      },
+      "GA": {
+        "Unclear": 4
+      },
+      "DE": {
+        "Unclear": 1
+      },
+      "MI": {
+        "Unclear": 5
+      },
+      "FL": {
+        "Unclear": 5
+      },
+      "MN": {
+        "Unclear": 1
+      },
+      "LA": {
+        "Unclear": 3
+      },
+      "KS": {
+        "Unclear": 1
+      },
+      "OK": {
+        "Unclear": 1
+      },
+      "IL": {
+        "Unclear": 3
+      },
+      "VA": {
+        "Unclear": 1
+      },
+      "NY": {
+        "Unclear": 6
+      },
+      "MD": {
+        "Unclear": 1
+      },
+      "PR": {
+        "Unclear": 1
+      },
+      "KY": {
+        "Unclear": 2
+      },
+      "DC": {
+        "Unclear": 1
+      },
+      "CO": {
+        "Unclear": 1
+      },
+      "MT": {
+        "Unclear": 1
+      },
+      "OH": {
+        "Unclear": 2
+      },
+      "AL": {
+        "Unclear": 2
+      },
+      "ID": {
+        "Unclear": 2
+      },
+      "MO": {
+        "Unclear": 1
+      },
+      "NJ": {
+        "Unclear": 1
+      },
+      "SC": {
+        "Unclear": 1
+      },
+      "MS": {
+        "Unclear": 1
+      },
+      "IN": {
+        "Unclear": 1
+      }
+    }
+  },
+  "raw_responses": [
+    {
+      "persona_id": "d1407440dc15455a870dbc3e5605979b",
+      "age": 46,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "cashier",
+      "city": "Angier",
+      "state": "NC",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** It seems like Congress often gets bogged down in partisan politics rather than focusing on the real issues that affect everyday folks like us. We need more action and cooperation to address things like the economy and community support.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It seems like Congress often gets bogged down in partisan politics rather than focusing on the real issues that affect everyday folks like us. We need more action and cooperation to address things like the economy and community support."
+    },
+    {
+      "persona_id": "f19ccc1f8b5345caa6ea89ada97a4092",
+      "age": 18,
+      "sex": "Female",
+      "education": "associates",
+      "occupation": "not_in_workforce",
+      "city": "Ellensburg",
+      "state": "WA",
+      "marital_status": "never_married",
+      "response": "**Disapprove**. I feel like Congress often gets caught up in partisan politics and struggles to address pressing issues that affect everyday people. It can be frustrating to see important problems get overlooked while they focus on debates rather than solutions.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I feel like Congress often gets caught up in partisan politics and struggles to address pressing issues that affect everyday people. It can be frustrating to see important problems get overlooked while they focus on debates rather than solutions."
+    },
+    {
+      "persona_id": "527faef6dc3f4309885fe26706c5b3ac",
+      "age": 24,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "electrical_power_line_installer_or_repairer",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "marital_status": "never_married",
+      "response": "Disapprove. I think Congress often gets bogged down in partisan politics and fails to prioritize effective legislation that directly benefits working-class citizens, particularly when it comes to renewable energy initiatives and infrastructure improvements.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I think Congress often gets bogged down in partisan politics and fails to prioritize effective legislation that directly benefits working-class citizens, particularly when it comes to renewable energy initiatives and infrastructure improvements."
+    },
+    {
+      "persona_id": "d97dec16cb3046958f9e7ca72ace75e6",
+      "age": 62,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "food_service_manager",
+      "city": "Dallas",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I find that Congress often struggles to prioritize the needs of everyday Americans, getting caught up in partisanship instead of focusing on urgent issues like healthcare, jobs, and education. This lack of progress affects our communities and hinders overall trust in government.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I find that Congress often struggles to prioritize the needs of everyday Americans, getting caught up in partisanship instead of focusing on urgent issues like healthcare, jobs, and education. This lack of progress affects our communities and hinders overall trust in government."
+    },
+    {
+      "persona_id": "078955adeb484df78b7115368eadbe22",
+      "age": 20,
+      "sex": "Female",
+      "education": "9th_12th_no_diploma",
+      "occupation": "correctional_officer_or_jailer",
+      "city": "Portland",
+      "state": "OR",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel like Congress often gets caught up in partisan politics and struggles to pass meaningful reforms that could actually help people. It\u2019s frustrating to see important issues like criminal justice reform get sidelined while they focus on less impactful matters.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel like Congress often gets caught up in partisan politics and struggles to pass meaningful reforms that could actually help people. It\u2019s frustrating to see important issues like criminal justice reform get sidelined while they focus on less impactful matters."
+    },
+    {
+      "persona_id": "fcc8c68e977147e2a874755e3f463f82",
+      "age": 12,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Sullivan City",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think Congress isn't listening enough to young people's concerns, and they often get stuck in arguments instead of working together to solve real problems, like education and climate change. It's important for them to be more united and focused on helping all communities.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress isn't listening enough to young people's concerns, and they often get stuck in arguments instead of working together to solve real problems, like education and climate change. It's important for them to be more united and focused on helping all communities."
+    },
+    {
+      "persona_id": "531a542ff1714bb080d8f06f3cd2daff",
+      "age": 17,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "San Diego",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Disapprove**. It feels like Congress often gets stuck in partisan battles rather than working together to address important issues like education and tech infrastructure. They should be focusing on making real changes that can help people, especially in communities like mine.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. It feels like Congress often gets stuck in partisan battles rather than working together to address important issues like education and tech infrastructure. They should be focusing on making real changes that can help people, especially in communities like mine."
+    },
+    {
+      "persona_id": "72d73e3748e44d8fa7ac8dc8e42f0d4b",
+      "age": 1,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Fayetteville",
+      "state": "NC",
+      "marital_status": "never_married",
+      "response": "**Disapprove**. I feel like Congress isn't really focused on the everyday needs of people like us in the community. They often get caught up in politics instead of making things better for families and neighborhoods.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I feel like Congress isn't really focused on the everyday needs of people like us in the community. They often get caught up in politics instead of making things better for families and neighborhoods."
+    },
+    {
+      "persona_id": "935d50d4e4ea4f4a8b40355ab690b1bf",
+      "age": 60,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Apache Junction",
+      "state": "AZ",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** I think Congress is often out of touch with everyday folks and tends to focus more on political quarrels than practical solutions. Many issues that matter to us, like infrastructure and support for local communities, seem to take a back seat to partisan politics.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress is often out of touch with everyday folks and tends to focus more on political quarrels than practical solutions. Many issues that matter to us, like infrastructure and support for local communities, seem to take a back seat to partisan politics."
+    },
+    {
+      "persona_id": "4913229383014b649940485b3acb73b1",
+      "age": 18,
+      "sex": "Male",
+      "education": "bachelors",
+      "occupation": "not_in_workforce",
+      "city": "Boston",
+      "state": "MA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** It often feels like they're more focused on political grandstanding than actually addressing the pressing issues that affect everyday people, especially in areas like education and technology funding. I think there's a real need for more collaboration and innovative solutions to tackle modern challenges.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It often feels like they're more focused on political grandstanding than actually addressing the pressing issues that affect everyday people, especially in areas like education and technology funding. I think there's a real need for more collaboration and innovative solutions to tackle modern challenges."
+    },
+    {
+      "persona_id": "c750eeb05b9440e79877a7ce3217371a",
+      "age": 26,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "physical_scientist",
+      "city": "Atwater",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think Congress often gets bogged down in partisanship and fails to prioritize pressing issues like climate change and renewable energy initiatives that are vital for our future. It's frustrating to see opportunities for meaningful progress lost due to political infighting.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress often gets bogged down in partisanship and fails to prioritize pressing issues like climate change and renewable energy initiatives that are vital for our future. It's frustrating to see opportunities for meaningful progress lost due to political infighting."
+    },
+    {
+      "persona_id": "3bab1a650de445ae88ec28c5536282b2",
+      "age": 19,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "El Paso",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think Congress often gets caught up in political battles instead of focusing on issues that really matter to everyday people, especially in terms of education and community support. It feels like they're disconnected from the needs of families and young artists like me who want to see real change.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress often gets caught up in political battles instead of focusing on issues that really matter to everyday people, especially in terms of education and community support. It feels like they're disconnected from the needs of families and young artists like me who want to see real change."
+    },
+    {
+      "persona_id": "4a7db6a010474c5883a7bd81f70ebf6e",
+      "age": 19,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Milwaukee",
+      "state": "WI",
+      "marital_status": "never_married",
+      "response": "Disapprove. I feel like Congress often gets caught up in political disagreements instead of working together to address the pressing needs of communities like mine, which can leave important issues unaddressed for too long.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I feel like Congress often gets caught up in political disagreements instead of working together to address the pressing needs of communities like mine, which can leave important issues unaddressed for too long."
+    },
+    {
+      "persona_id": "5a711d86edf44de7b54465613b1828fb",
+      "age": 59,
+      "sex": "Female",
+      "education": "associates",
+      "occupation": "marketing_manager",
+      "city": "Hanford",
+      "state": "CA",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** It feels like Congress often gets bogged down in partisan politics, which prevents meaningful progress on issues that truly matter to communities like mine. It's frustrating to see important matters, especially those affecting small businesses and families, being sidelined.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It feels like Congress often gets bogged down in partisan politics, which prevents meaningful progress on issues that truly matter to communities like mine. It's frustrating to see important matters, especially those affecting small businesses and families, being sidelined."
+    },
+    {
+      "persona_id": "de1c74355255453dad0e9870410efe1a",
+      "age": 74,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Covington",
+      "state": "GA",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** It seems like Congress often gets stuck in endless debates without making real progress on issues that matter to everyday folks, like healthcare and education. I believe they should be more focused on working together for the good of the community.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It seems like Congress often gets stuck in endless debates without making real progress on issues that matter to everyday folks, like healthcare and education. I believe they should be more focused on working together for the good of the community."
+    },
+    {
+      "persona_id": "95c14eefefb64bd78c55f1acc9fe7a34",
+      "age": 72,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Spring",
+      "state": "TX",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** It seems to me that Congress often gets caught up in political games instead of focusing on things that matter to everyday people, like healthcare, education, and supporting local communities. There should be more collaboration to truly serve the needs of families across the nation.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It seems to me that Congress often gets caught up in political games instead of focusing on things that matter to everyday people, like healthcare, education, and supporting local communities. There should be more collaboration to truly serve the needs of families across the nation."
+    },
+    {
+      "persona_id": "72672ab44e4b4e40a94e44b91913cfef",
+      "age": 15,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Bear",
+      "state": "DE",
+      "marital_status": "never_married",
+      "response": "Disapprove. I think Congress often gets caught up in political battles instead of focusing on issues that really matter to everyday people, like education and community support. It's frustrating to see so many important things get pushed aside.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I think Congress often gets caught up in political battles instead of focusing on issues that really matter to everyday people, like education and community support. It's frustrating to see so many important things get pushed aside."
+    },
+    {
+      "persona_id": "36028479b327434c897d1d3197b6ca28",
+      "age": 65,
+      "sex": "Female",
+      "education": "graduate",
+      "occupation": "elementary_or_middle_school_teacher",
+      "city": "Sterling Heights",
+      "state": "MI",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** I believe Congress often gets bogged down in partisan politics and fails to focus on the needs of everyday Americans. It seems like there's more fighting than finding solutions, which affects our communities significantly.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I believe Congress often gets bogged down in partisan politics and fails to focus on the needs of everyday Americans. It seems like there's more fighting than finding solutions, which affects our communities significantly."
+    },
+    {
+      "persona_id": "a1006eb46d02423fbb88f3dd33c1ac9f",
+      "age": 76,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Boynton Beach",
+      "state": "FL",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel that Congress often gets bogged down in political disagreements rather than working together to address the pressing issues that affect everyday Americans, especially seniors like myself. It's frustrating to see such important topics getting lost in the shuffle.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often gets bogged down in political disagreements rather than working together to address the pressing issues that affect everyday Americans, especially seniors like myself. It's frustrating to see such important topics getting lost in the shuffle."
+    },
+    {
+      "persona_id": "bb2ffb6c1c0245c28ffd2b4da70c6668",
+      "age": 51,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "first_line_supervisor_of_food_preparation_or_serving_worker",
+      "city": "Farmington",
+      "state": "MI",
+      "marital_status": "married_present",
+      "response": "**Disapprove**. I feel that Congress often gets bogged down in partisan politics, which hinders effective policymaking and can overlook the needs of everyday people. I believe more collaboration and focus on community issues are necessary for better governance.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I feel that Congress often gets bogged down in partisan politics, which hinders effective policymaking and can overlook the needs of everyday people. I believe more collaboration and focus on community issues are necessary for better governance."
+    },
+    {
+      "persona_id": "e7c0574639a244c8972c92aab9501035",
+      "age": 28,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "fast_food_or_counter_worker",
+      "city": "Madison",
+      "state": "WI",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think Congress often gets bogged down in partisan politics, which leads to delays in making decisions that directly affect working folks like me. It feels like they're more focused on their agendas than on collaborating to tackle real issues faced by communities.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress often gets bogged down in partisan politics, which leads to delays in making decisions that directly affect working folks like me. It feels like they're more focused on their agendas than on collaborating to tackle real issues faced by communities."
+    },
+    {
+      "persona_id": "52c801c9194b400c9dc0c86378d7c82d",
+      "age": 19,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "not_in_workforce",
+      "city": "Cary",
+      "state": "NC",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel that Congress often struggles to find common ground on important issues, which leads to inaction that affects many aspects of our lives, including education and community resources. It's frustrating to see potentially beneficial initiatives stalled due to partisan conflicts.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often struggles to find common ground on important issues, which leads to inaction that affects many aspects of our lives, including education and community resources. It's frustrating to see potentially beneficial initiatives stalled due to partisan conflicts."
+    },
+    {
+      "persona_id": "e8b9d4f627764bab903fffc467f1590a",
+      "age": 58,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "painting_worker",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "marital_status": "divorced",
+      "response": "Disapprove. I think Congress often gets bogged down in partisanship and doesn\u2019t focus enough on what really matters for everyday folks, like infrastructure, job growth, and environmental issues. It's frustrating to see them play politics instead of working together for the people.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I think Congress often gets bogged down in partisanship and doesn\u2019t focus enough on what really matters for everyday folks, like infrastructure, job growth, and environmental issues. It's frustrating to see them play politics instead of working together for the people."
+    },
+    {
+      "persona_id": "24add69e9430473c9b7073d68713aebb",
+      "age": 4,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Euless",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "I disapprove. I think they should help people more and make sure everyone is happy and safe, like how I want to be a good teacher and make my class nice for everyone.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "I disapprove. I think they should help people more and make sure everyone is happy and safe, like how I want to be a good teacher and make my class nice for everyone."
+    },
+    {
+      "persona_id": "dbed952d9bec40ba80b4715a088c1f74",
+      "age": 52,
+      "sex": "Male",
+      "education": "graduate",
+      "occupation": "elementary_or_middle_school_teacher",
+      "city": "Bloomfield Hills",
+      "state": "MI",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** The constant gridlock and partisanship hinder effective governance and prevent meaningful progress on critical issues like education funding and infrastructure, both of which directly impact our communities. As an educator, I particularly value those aspects of government that support our schools and create opportunities for our students.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** The constant gridlock and partisanship hinder effective governance and prevent meaningful progress on critical issues like education funding and infrastructure, both of which directly impact our communities. As an educator, I particularly value those aspects of government that support our schools and create opportunities for our students."
+    },
+    {
+      "persona_id": "9a43cbb670304065a69bfde53f411dac",
+      "age": 69,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "telephone_operator",
+      "city": "Austin",
+      "state": "TX",
+      "marital_status": "divorced",
+      "response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics and fails to address pressing issues that impact everyday citizens, like healthcare and inflation. It seems like there's a lack of focus on collaboration and real solutions.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics and fails to address pressing issues that impact everyday citizens, like healthcare and inflation. It seems like there's a lack of focus on collaboration and real solutions."
+    },
+    {
+      "persona_id": "3751d3e035e64593bfd8eb53a8f75020",
+      "age": 26,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "waiter_or_waitress",
+      "city": "Modesto",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel like Congress often gets caught up in partisan bickering instead of focusing on the issues that really matter to everyday people, especially in areas like affordable healthcare and education. It seems like they prioritize their agendas over real change, which is frustrating to see.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel like Congress often gets caught up in partisan bickering instead of focusing on the issues that really matter to everyday people, especially in areas like affordable healthcare and education. It seems like they prioritize their agendas over real change, which is frustrating to see."
+    },
+    {
+      "persona_id": "3952773cce95427aabac82831f21896d",
+      "age": 13,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "East Falmouth",
+      "state": "MA",
+      "marital_status": "never_married",
+      "response": "**Disapprove**. I think Congress gets stuck in arguments and doesn't focus on what really matters, like climate change and education. It seems like they're more worried about politics than making a real difference for people.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I think Congress gets stuck in arguments and doesn't focus on what really matters, like climate change and education. It seems like they're more worried about politics than making a real difference for people."
+    },
+    {
+      "persona_id": "58c03faba45d40f79f6dac7c3eb612fd",
+      "age": 47,
+      "sex": "Male",
+      "education": "bachelors",
+      "occupation": "computer_systems_analyst",
+      "city": "Bloomfield Hills",
+      "state": "MI",
+      "marital_status": "married_present",
+      "response": "**Disapprove**. It seems that Congress often gets caught up in partisan politics instead of working collaboratively to address pressing issues that affect everyday Americans, like technology infrastructure and education. This lack of focus on practical solutions can be frustrating, especially when it delays progress on important initiatives.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. It seems that Congress often gets caught up in partisan politics instead of working collaboratively to address pressing issues that affect everyday Americans, like technology infrastructure and education. This lack of focus on practical solutions can be frustrating, especially when it delays progress on important initiatives."
+    },
+    {
+      "persona_id": "8858f4df0aaa4fffb40eb10ce03f8f57",
+      "age": 8,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Minneapolis",
+      "state": "MN",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think Congress should focus more on solving problems that help people, like protecting nature and supporting schools. It feels like they spend too much time arguing instead of working together to make things better.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress should focus more on solving problems that help people, like protecting nature and supporting schools. It feels like they spend too much time arguing instead of working together to make things better."
+    },
+    {
+      "persona_id": "9a38b78931004944aa0228e82b3db184",
+      "age": 32,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "dining_room_or_cafeteria_attendant_or_bartender_helper",
+      "city": "West Monroe",
+      "state": "LA",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** I think Congress often gets caught up in partisan politics instead of focusing on what truly matters for the American people, especially issues like job growth and healthcare. It's frustrating to see them struggle to make progress on important legislation.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress often gets caught up in partisan politics instead of focusing on what truly matters for the American people, especially issues like job growth and healthcare. It's frustrating to see them struggle to make progress on important legislation."
+    },
+    {
+      "persona_id": "a364e58fc71a44f7926802e0dc8ac3a0",
+      "age": 1,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Lenexa",
+      "state": "KS",
+      "marital_status": "never_married",
+      "response": "Disapprove. They seem to argue a lot instead of fixing things like they should, and I get confused about why they can\u2019t just work together like I do with my toys.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. They seem to argue a lot instead of fixing things like they should, and I get confused about why they can\u2019t just work together like I do with my toys."
+    },
+    {
+      "persona_id": "f2fbabf1053d4aa2aee2376aaa451cb5",
+      "age": 25,
+      "sex": "Male",
+      "education": "associates",
+      "occupation": "security_guard_or_gambling_surveillance_officer",
+      "city": "Pittsburg",
+      "state": "CA",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** It seems like Congress often gets caught up in partisan politics instead of focusing on real issues that affect everyday people. There\u2019s a need for more collaboration and solutions that improve our communities rather than just playing the blame game.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It seems like Congress often gets caught up in partisan politics instead of focusing on real issues that affect everyday people. There\u2019s a need for more collaboration and solutions that improve our communities rather than just playing the blame game."
+    },
+    {
+      "persona_id": "0e2d3b13dbb74d16a7f43640cd47d571",
+      "age": 73,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "marital_status": "divorced",
+      "response": "**Disapprove.** I feel like Congress often gets caught up in partisan disagreements rather than focusing on the needs of everyday folks. It seems like common sense solutions take a backseat to political gamesmanship, which can be frustrating for us out here who just want to see improvements in our communities.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel like Congress often gets caught up in partisan disagreements rather than focusing on the needs of everyday folks. It seems like common sense solutions take a backseat to political gamesmanship, which can be frustrating for us out here who just want to see improvements in our communities."
+    },
+    {
+      "persona_id": "306229bb559742a5a589a827f37da19a",
+      "age": 43,
+      "sex": "Female",
+      "education": "graduate",
+      "occupation": "architect",
+      "city": "Elmhurst",
+      "state": "IL",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** I find that Congress often struggles to prioritize the needs of the constituents effectively and tends to get bogged down in partisan politics, which undermines progress on critical issues like infrastructure and sustainable development. It's essential for our leaders to work collaboratively for the greater good rather than allowing personal or party agendas to dictate outcomes.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I find that Congress often struggles to prioritize the needs of the constituents effectively and tends to get bogged down in partisan politics, which undermines progress on critical issues like infrastructure and sustainable development. It's essential for our leaders to work collaboratively for the greater good rather than allowing personal or party agendas to dictate outcomes."
+    },
+    {
+      "persona_id": "a979cdc1dbcc4a68b2bdd8ddeac80e9f",
+      "age": 2,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Kennewick",
+      "state": "WA",
+      "marital_status": "never_married",
+      "response": "Disapprove. I don\u2019t really understand all the grown-up stuff they do, but it seems like they argue a lot and don't play nice, and I just want them to make things better for everybody.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I don\u2019t really understand all the grown-up stuff they do, but it seems like they argue a lot and don't play nice, and I just want them to make things better for everybody."
+    },
+    {
+      "persona_id": "d866de38aeaa4ab5933b5a72f12647e5",
+      "age": 39,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Pompano Beach",
+      "state": "FL",
+      "marital_status": "married_present",
+      "response": "Disapprove. I feel like Congress often gets bogged down by political bickering and partisanship, which prevents them from addressing the real needs of everyday Americans. It's frustrating to see issues that impact our communities ignored or delayed.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I feel like Congress often gets bogged down by political bickering and partisanship, which prevents them from addressing the real needs of everyday Americans. It's frustrating to see issues that impact our communities ignored or delayed."
+    },
+    {
+      "persona_id": "33f3ac37c7a54d59add8c203a508d6ab",
+      "age": 27,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "office_clerk_general",
+      "city": "Worcester",
+      "state": "MA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics rather than focusing on practical solutions for the citizens they represent. It would be great to see more collaboration and accountability in addressing pressing issues.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics rather than focusing on practical solutions for the citizens they represent. It would be great to see more collaboration and accountability in addressing pressing issues."
+    },
+    {
+      "persona_id": "202953463f1243d798d4ed09992c7827",
+      "age": 7,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Monroeville",
+      "state": "PA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think Congress should focus more on helping people and making things better for kids like me, instead of arguing so much. It would be nice if they worked together to solve problems!",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress should focus more on helping people and making things better for kids like me, instead of arguing so much. It would be nice if they worked together to solve problems!"
+    },
+    {
+      "persona_id": "4fdc0b8862924332a3ae5523f6a2c696",
+      "age": 70,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "not_in_workforce",
+      "city": "Payson",
+      "state": "AZ",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** It seems that Congress often struggles to reach consensus and prioritize the needs of the community, focusing more on partisan battles than on meaningful legislation that would benefit the country as a whole. In my view, this leads to unnecessary gridlock and frustration for everyday folks like us.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It seems that Congress often struggles to reach consensus and prioritize the needs of the community, focusing more on partisan battles than on meaningful legislation that would benefit the country as a whole. In my view, this leads to unnecessary gridlock and frustration for everyday folks like us."
+    },
+    {
+      "persona_id": "8c2e19172e004d1f90c15b73a89e104c",
+      "age": 41,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "public_safety_telecommunicator",
+      "city": "Glen Allen",
+      "state": "VA",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics, which can hinder effective governance and fail to address pressing issues like public safety and community welfare. It's essential for leaders to prioritize the needs of the people rather than their political agendas.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics, which can hinder effective governance and fail to address pressing issues like public safety and community welfare. It's essential for leaders to prioritize the needs of the people rather than their political agendas."
+    },
+    {
+      "persona_id": "50f90a6f17de473f9ca15f00afdedf7a",
+      "age": 29,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "computer_or_information_research_scientist",
+      "city": "Chico",
+      "state": "CA",
+      "marital_status": "divorced",
+      "response": "**Disapprove.** I feel that Congress often gets caught up in partisan squabbles rather than focusing on the pressing issues that impact everyday people, including technological advancement and equitable access to resources. More collaboration and innovation are needed to truly address our nation's challenges.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often gets caught up in partisan squabbles rather than focusing on the pressing issues that impact everyday people, including technological advancement and equitable access to resources. More collaboration and innovation are needed to truly address our nation's challenges."
+    },
+    {
+      "persona_id": "c488d364125147a48b46e7aadd7fb578",
+      "age": 13,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Sherburne",
+      "state": "NY",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think Congress often gets caught up in politics and doesn't focus enough on important issues that really affect everyday people, especially in rural communities like mine. It feels like they spend too much time arguing and not enough time actually solving problems.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress often gets caught up in politics and doesn't focus enough on important issues that really affect everyday people, especially in rural communities like mine. It feels like they spend too much time arguing and not enough time actually solving problems."
+    },
+    {
+      "persona_id": "5e7132dcc2fb47caba7b5bdfdc77fb24",
+      "age": 5,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Quitman",
+      "state": "LA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think they should help people more and work together better. It seems like they argue a lot instead of fixing things that are important, like helping my town.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think they should help people more and work together better. It seems like they argue a lot instead of fixing things that are important, like helping my town."
+    },
+    {
+      "persona_id": "a4a4267ebcff4e92b9ab86257058cb5f",
+      "age": 16,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Alexandria",
+      "state": "LA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel like Congress is often more focused on arguing over issues than actually getting things done that benefit people like me and my community. It seems like they don't really understand the struggles young folks face today.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel like Congress is often more focused on arguing over issues than actually getting things done that benefit people like me and my community. It seems like they don't really understand the struggles young folks face today."
+    },
+    {
+      "persona_id": "f2f5dbaf4d3d43f68adeb7f318afa3a2",
+      "age": 85,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "not_in_workforce",
+      "city": "Saline",
+      "state": "MI",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** I believe Congress could be more efficient and focused on the needs of ordinary citizens rather than getting caught up in political disputes. It would be more beneficial if they prioritized practical solutions and community welfare.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I believe Congress could be more efficient and focused on the needs of ordinary citizens rather than getting caught up in political disputes. It would be more beneficial if they prioritized practical solutions and community welfare."
+    },
+    {
+      "persona_id": "25d5a3da89f54bbebe985e5a798edb15",
+      "age": 10,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Brooklyn",
+      "state": "NY",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think Congress could do a better job of listening to what people really need and working together to solve problems instead of just arguing. It seems like they spend a lot of time fighting instead of helping others.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress could do a better job of listening to what people really need and working together to solve problems instead of just arguing. It seems like they spend a lot of time fighting instead of helping others."
+    },
+    {
+      "persona_id": "01b0d4d48fec4e20a068699d8fb1a8e2",
+      "age": 51,
+      "sex": "Female",
+      "education": "graduate",
+      "occupation": "financial_manager",
+      "city": "Bel Air",
+      "state": "MD",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** Congress often seems more focused on partisan politics than on addressing the real issues that affect everyday people, like economic stability and healthcare. This lack of cooperation hinders meaningful progress and leaves communities, including those I work with, underserved.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** Congress often seems more focused on partisan politics than on addressing the real issues that affect everyday people, like economic stability and healthcare. This lack of cooperation hinders meaningful progress and leaves communities, including those I work with, underserved."
+    },
+    {
+      "persona_id": "7c5cd3ce691b4f43979b415e5971ffe5",
+      "age": 4,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "San Juan",
+      "state": "PR",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think they should work together better, like when I play with my friends and we all share our toys. They need to agree more to help everyone!",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think they should work together better, like when I play with my friends and we all share our toys. They need to agree more to help everyone!"
+    },
+    {
+      "persona_id": "83ac74ececce47fea7bf26b33b771077",
+      "age": 20,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Lexington",
+      "state": "KY",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics rather than focusing on issues that truly impact communities, especially marginalized groups. It would be great to see more collaboration and proactive measures to support arts, education, and social justice initiatives.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics rather than focusing on issues that truly impact communities, especially marginalized groups. It would be great to see more collaboration and proactive measures to support arts, education, and social justice initiatives."
+    },
+    {
+      "persona_id": "5237e90a0ca3460dbbcba20adb61922f",
+      "age": 34,
+      "sex": "Female",
+      "education": "9th_12th_no_diploma",
+      "occupation": "no_occupation",
+      "city": "Lilburn",
+      "state": "GA",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics rather than focusing on the needs of the community. Many issues, especially those affecting families and cultural programs, seem to take a backseat in the decision-making process.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics rather than focusing on the needs of the community. Many issues, especially those affecting families and cultural programs, seem to take a backseat in the decision-making process."
+    },
+    {
+      "persona_id": "e4cc52624842450b80da0a10a4014f67",
+      "age": 38,
+      "sex": "Female",
+      "education": "graduate",
+      "occupation": "software_developer",
+      "city": "Washington",
+      "state": "DC",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** While I appreciate the challenges Congress faces, I believe that gridlock and partisanship have hindered effective governance and meaningful progress on critical issues, particularly in technology policy and public services. It\u2019s essential for our representatives to collaborate and prioritize the needs of their constituents.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** While I appreciate the challenges Congress faces, I believe that gridlock and partisanship have hindered effective governance and meaningful progress on critical issues, particularly in technology policy and public services. It\u2019s essential for our representatives to collaborate and prioritize the needs of their constituents."
+    },
+    {
+      "persona_id": "462c2ac6f3eb490fbabd979a0f20740d",
+      "age": 67,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "not_in_workforce",
+      "city": "Carlsbad",
+      "state": "CA",
+      "marital_status": "widowed",
+      "response": "**Disapprove.** I think Congress often gets caught up in partisan politics and struggles to address the real needs of the community, especially when it comes to support for small businesses and seniors. We need more collaboration and focus on solutions that help everyday people.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress often gets caught up in partisan politics and struggles to address the real needs of the community, especially when it comes to support for small businesses and seniors. We need more collaboration and focus on solutions that help everyday people."
+    },
+    {
+      "persona_id": "866d3bfd9060413caef42d80d52ae10a",
+      "age": 77,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Taunton",
+      "state": "MA",
+      "marital_status": "married_present",
+      "response": "**Disapprove**. I feel that Congress often gets caught up in partisan politics and fails to address the real issues affecting everyday Americans, like healthcare and social security. It seems like they put their own agendas ahead of what truly matters for the people.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I feel that Congress often gets caught up in partisan politics and fails to address the real issues affecting everyday Americans, like healthcare and social security. It seems like they put their own agendas ahead of what truly matters for the people."
+    },
+    {
+      "persona_id": "cec209123a3c4b1686bfaa1289c451cb",
+      "age": 30,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "engineer",
+      "city": "Shepherdsville",
+      "state": "KY",
+      "marital_status": "divorced",
+      "response": "**Disapprove.** It seems that Congress often gets bogged down in partisanship rather than focusing on collaborative solutions to pressing issues like climate change, infrastructure, and education. As someone in engineering, I value pragmatic approaches that benefit the community, and I'd like to see more productive discussions and tangible results.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It seems that Congress often gets bogged down in partisanship rather than focusing on collaborative solutions to pressing issues like climate change, infrastructure, and education. As someone in engineering, I value pragmatic approaches that benefit the community, and I'd like to see more productive discussions and tangible results."
+    },
+    {
+      "persona_id": "d59a8cf61ec54de199a3640e506ae608",
+      "age": 75,
+      "sex": "Male",
+      "education": "9th_12th_no_diploma",
+      "occupation": "not_in_workforce",
+      "city": "Puyallup",
+      "state": "WA",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics and fails to focus on the needs of ordinary people. It seems like they spend more time debating than actually getting things done that could help families like mine.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often gets caught up in partisan politics and fails to focus on the needs of ordinary people. It seems like they spend more time debating than actually getting things done that could help families like mine."
+    },
+    {
+      "persona_id": "1d6c953d92be4090a20ff96d1cb12e81",
+      "age": 17,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "La Verne",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel like Congress often gets caught up in political debates rather than focusing on issues that really matter to communities, like education and social justice. It's frustrating to watch important topics get overlooked.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel like Congress often gets caught up in political debates rather than focusing on issues that really matter to communities, like education and social justice. It's frustrating to watch important topics get overlooked."
+    },
+    {
+      "persona_id": "9485b0e97a604fa39c8739fe524d13dd",
+      "age": 28,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "industrial_truck_or_tractor_operator",
+      "city": "Denver",
+      "state": "CO",
+      "marital_status": "never_married",
+      "response": "Disapprove. Congress seems too often caught up in partisan politics instead of focusing on the practical needs of the people, like infrastructure improvements and sustainable initiatives, which are crucial for both our economy and environment.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. Congress seems too often caught up in partisan politics instead of focusing on the practical needs of the people, like infrastructure improvements and sustainable initiatives, which are crucial for both our economy and environment."
+    },
+    {
+      "persona_id": "cc3bced56fdd4120a84ce738286d4abb",
+      "age": 21,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "nursing_assistant",
+      "city": "Jacksonville",
+      "state": "FL",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** It feels like Congress often gets caught up in partisan politics rather than focusing on real issues affecting our communities, like health equity and access to care. We need more action on policies that support underserved neighborhoods, especially in places like Jacksonville.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It feels like Congress often gets caught up in partisan politics rather than focusing on real issues affecting our communities, like health equity and access to care. We need more action on policies that support underserved neighborhoods, especially in places like Jacksonville."
+    },
+    {
+      "persona_id": "d58d3c409dc44d8c8a2d4391f7b58c2e",
+      "age": 61,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "personal_care_aide",
+      "city": "Morton Grove",
+      "state": "IL",
+      "marital_status": "married_present",
+      "response": "Disapprove. I believe Congress often gets caught up in partisan politics rather than focusing on effective legislation that truly benefits the American people, especially in areas like healthcare and senior care. It's frustrating to see important issues not being addressed adequately.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I believe Congress often gets caught up in partisan politics rather than focusing on effective legislation that truly benefits the American people, especially in areas like healthcare and senior care. It's frustrating to see important issues not being addressed adequately."
+    },
+    {
+      "persona_id": "2514b1dd5536430d8f504e5057293c2e",
+      "age": 7,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "marital_status": "never_married",
+      "response": "**Disapprove**. Sometimes it feels like they are not really listening to what the people need, and they take a long time to make decisions. I think they should work better and faster to help everyone.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. Sometimes it feels like they are not really listening to what the people need, and they take a long time to make decisions. I think they should work better and faster to help everyone."
+    },
+    {
+      "persona_id": "e7035edf5bc744c9912694a7d4b2a99c",
+      "age": 49,
+      "sex": "Male",
+      "education": "graduate",
+      "occupation": "not_in_workforce",
+      "city": "Rochester",
+      "state": "NY",
+      "marital_status": "divorced",
+      "response": "**Disapprove**. I believe Congress often gets caught up in partisan politics, which hampers meaningful progress on critical issues like climate change, healthcare, and education. Their inability to collaborate effectively leaves many citizens feeling unheard and frustrated.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I believe Congress often gets caught up in partisan politics, which hampers meaningful progress on critical issues like climate change, healthcare, and education. Their inability to collaborate effectively leaves many citizens feeling unheard and frustrated."
+    },
+    {
+      "persona_id": "255a519d8d6e4460b3beeab84c08be55",
+      "age": 50,
+      "sex": "Male",
+      "education": "associates",
+      "occupation": "software_developer",
+      "city": "Livingston",
+      "state": "MT",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** It seems like Congress is often caught up in partisan politics rather than focusing on the needs of the American people. I believe they should prioritize practical solutions and collaboration, especially in challenging times.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It seems like Congress is often caught up in partisan politics rather than focusing on the needs of the American people. I believe they should prioritize practical solutions and collaboration, especially in challenging times."
+    },
+    {
+      "persona_id": "4ddaf4c17316485982401f7c1221bfb4",
+      "age": 67,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "not_in_workforce",
+      "city": "Fairview",
+      "state": "OR",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** It seems like Congress is often more focused on partisanship than on the needs of the people, which can lead to stagnation rather than progress. I believe they should prioritize practical solutions and work more collaboratively for the benefit of our communities.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It seems like Congress is often more focused on partisanship than on the needs of the people, which can lead to stagnation rather than progress. I believe they should prioritize practical solutions and work more collaboratively for the benefit of our communities."
+    },
+    {
+      "persona_id": "78e5590f31e04d70a15bb8b80eba8781",
+      "age": 36,
+      "sex": "Male",
+      "education": "bachelors",
+      "occupation": "sales_manager",
+      "city": "Columbus",
+      "state": "OH",
+      "marital_status": "never_married",
+      "response": "Disapprove. I believe Congress often gets bogged down in partisan politics, which hinders effective decision-making and progress on critical issues that affect everyday Americans. There's a need for more collaboration and focus on solutions that benefit the public rather than party agendas.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I believe Congress often gets bogged down in partisan politics, which hinders effective decision-making and progress on critical issues that affect everyday Americans. There's a need for more collaboration and focus on solutions that benefit the public rather than party agendas."
+    },
+    {
+      "persona_id": "ddf1acf224ff464a99a667ccaefe0da8",
+      "age": 39,
+      "sex": "Male",
+      "education": "bachelors",
+      "occupation": "civil_engineer",
+      "city": "Menomonee Falls",
+      "state": "WI",
+      "marital_status": "married_present",
+      "response": "Disapprove. I feel that Congress often gets bogged down in partisanship, which stifles progress on critical issues like infrastructure and community services that directly affect our lives. It's essential for them to work collaboratively for the good of the people, especially in today's changing environment.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I feel that Congress often gets bogged down in partisanship, which stifles progress on critical issues like infrastructure and community services that directly affect our lives. It's essential for them to work collaboratively for the good of the people, especially in today's changing environment."
+    },
+    {
+      "persona_id": "33fab35062c94a3a986db018cf7ad130",
+      "age": 26,
+      "sex": "Male",
+      "education": "graduate",
+      "occupation": "postsecondary_teacher",
+      "city": "Long Beach",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** Congress often seems polarized and more focused on party politics than on effectively addressing pressing issues like education, healthcare, and cultural equity. This lack of collaboration can hinder progress that benefits the community and the nation as a whole.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** Congress often seems polarized and more focused on party politics than on effectively addressing pressing issues like education, healthcare, and cultural equity. This lack of collaboration can hinder progress that benefits the community and the nation as a whole."
+    },
+    {
+      "persona_id": "4e5c3849a891432ba547a645a6e4be06",
+      "age": 57,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "mathematical_science_occupation",
+      "city": "Houston",
+      "state": "TX",
+      "marital_status": "married_present",
+      "response": "Disapprove. I believe Congress often struggles to work together effectively, which leads to gridlock on important issues like infrastructure, healthcare, and education that impact everyday families. It feels like they prioritize party lines over finding common ground for the good of the people.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I believe Congress often struggles to work together effectively, which leads to gridlock on important issues like infrastructure, healthcare, and education that impact everyday families. It feels like they prioritize party lines over finding common ground for the good of the people."
+    },
+    {
+      "persona_id": "9fffe766271d41b1a93aeb3f4cf523d2",
+      "age": 27,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "driver_sales_worker_or_truck_driver",
+      "city": "Sumiton",
+      "state": "AL",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** Congress often seems out of touch with the everyday struggles of regular folks like me, and their inability to come together on important issues, especially those affecting working-class communities, is frustrating. It's essential for them to focus more on practical solutions that address the real needs of the people.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** Congress often seems out of touch with the everyday struggles of regular folks like me, and their inability to come together on important issues, especially those affecting working-class communities, is frustrating. It's essential for them to focus more on practical solutions that address the real needs of the people."
+    },
+    {
+      "persona_id": "f0b90da25a244a1f9b9c6616cadd65e9",
+      "age": 65,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "not_in_workforce",
+      "city": "Spirit Lake",
+      "state": "ID",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** I feel that Congress often moves too slowly on important issues that directly impact our communities, such as healthcare and support for seniors. There seems to be a lot of bickering instead of working together for the common good.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often moves too slowly on important issues that directly impact our communities, such as healthcare and support for seniors. There seems to be a lot of bickering instead of working together for the common good."
+    },
+    {
+      "persona_id": "b393ef6a3f294337ba31e078fe7631d5",
+      "age": 21,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "not_in_workforce",
+      "city": "Paso Robles",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** It feels like Congress often gets stuck in partisan politics instead of focusing on issues that really matter to everyday people, like community development and sustainable practices. I think they need to come together and prioritize real solutions for our communities.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It feels like Congress often gets stuck in partisan politics instead of focusing on issues that really matter to everyday people, like community development and sustainable practices. I think they need to come together and prioritize real solutions for our communities."
+    },
+    {
+      "persona_id": "9db61a6cad314a4c9bfdc3803e848771",
+      "age": 32,
+      "sex": "Female",
+      "education": "associates",
+      "occupation": "secretary_or_administrative_assistant",
+      "city": "Silex",
+      "state": "MO",
+      "marital_status": "married_present",
+      "response": "**Disapprove**. I feel that Congress often gets bogged down in political infighting rather than focusing on the issues that really matter to everyday Americans. There seems to be a lack of effective communication and collaboration, which ultimately hampers progress in addressing key concerns like healthcare and community support.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I feel that Congress often gets bogged down in political infighting rather than focusing on the issues that really matter to everyday Americans. There seems to be a lack of effective communication and collaboration, which ultimately hampers progress in addressing key concerns like healthcare and community support."
+    },
+    {
+      "persona_id": "6c46851262b44c739e976eda5d8341e2",
+      "age": 59,
+      "sex": "Female",
+      "education": "some_college",
+      "occupation": "painting_worker",
+      "city": "Seal Beach",
+      "state": "CA",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** Congress often seems disconnected from the needs of everyday people, failing to address pressing issues like affordable housing and healthcare. It\u2019s frustrating to see gridlock when so much work needs to be done for our communities.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** Congress often seems disconnected from the needs of everyday people, failing to address pressing issues like affordable housing and healthcare. It\u2019s frustrating to see gridlock when so much work needs to be done for our communities."
+    },
+    {
+      "persona_id": "f00db7d331e74b86a2491741396a9644",
+      "age": 40,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "network_or_computer_systems_administrator",
+      "city": "Glassboro",
+      "state": "NJ",
+      "marital_status": "never_married",
+      "response": "**Disapprove**. I feel Congress often gets caught up in partisanship rather than focusing on the needs of the community and the nation. It's disheartening to see important issues like infrastructure and education take a backseat to political games.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I feel Congress often gets caught up in partisanship rather than focusing on the needs of the community and the nation. It's disheartening to see important issues like infrastructure and education take a backseat to political games."
+    },
+    {
+      "persona_id": "c8f64324f09447879b996e99f49a526a",
+      "age": 19,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Orangeburg",
+      "state": "SC",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel like Congress often gets caught up in political conflicts instead of focusing on the everyday issues that affect regular people, especially in communities like mine. It would be nice to see more collaboration and attention to social justice and cultural preservation.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel like Congress often gets caught up in political conflicts instead of focusing on the everyday issues that affect regular people, especially in communities like mine. It would be nice to see more collaboration and attention to social justice and cultural preservation."
+    },
+    {
+      "persona_id": "0c66dcc7cb914fecaed9ca1be9e8d842",
+      "age": 23,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "retail_salesperson",
+      "city": "Yuba City",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "Disapprove. I feel like Congress often gets caught up in partisan politics instead of working together for the common good, which affects everyday people like me and makes it harder for real issues to get addressed effectively.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I feel like Congress often gets caught up in partisan politics instead of working together for the common good, which affects everyday people like me and makes it harder for real issues to get addressed effectively."
+    },
+    {
+      "persona_id": "8ab13dd84a2649998f9d18fdac98500d",
+      "age": 31,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "construction_laborer",
+      "city": "San Dimas",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel like Congress often gets bogged down in partisan politics instead of focusing on what really matters for everyday people, like jobs and affordable housing. It seems like they could do better at addressing the real issues affecting working folks.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel like Congress often gets bogged down in partisan politics instead of focusing on what really matters for everyday people, like jobs and affordable housing. It seems like they could do better at addressing the real issues affecting working folks."
+    },
+    {
+      "persona_id": "f2028fc8c5c84d31ac58327a561bd3b6",
+      "age": 49,
+      "sex": "Female",
+      "education": "9th_12th_no_diploma",
+      "occupation": "not_in_workforce",
+      "city": "Moss Point",
+      "state": "MS",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** It feels like they're too focused on party lines and not enough on what's best for everyday folks like us. We need them to prioritize our communities and local issues instead of getting caught up in political games.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It feels like they're too focused on party lines and not enough on what's best for everyday folks like us. We need them to prioritize our communities and local issues instead of getting caught up in political games."
+    },
+    {
+      "persona_id": "c71f03be88544ab2b6fb8ac2936c12d2",
+      "age": 8,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Warsaw",
+      "state": "IN",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I think Congress should focus more on helping people and the environment instead of just arguing about stuff. It feels like they are not listening to what communities really need.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I think Congress should focus more on helping people and the environment instead of just arguing about stuff. It feels like they are not listening to what communities really need."
+    },
+    {
+      "persona_id": "c74fc3f9e84849b8a9f9ed857807c68f",
+      "age": 49,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Queens Village",
+      "state": "NY",
+      "marital_status": "married_present",
+      "response": "**Disapprove**. I feel that Congress often gets caught up in political bickering rather than addressing the real issues affecting communities, especially those of marginalized populations. It's frustrating to see a lack of focus on mental health and community support initiatives that could really help many families, including mine.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I feel that Congress often gets caught up in political bickering rather than addressing the real issues affecting communities, especially those of marginalized populations. It's frustrating to see a lack of focus on mental health and community support initiatives that could really help many families, including mine."
+    },
+    {
+      "persona_id": "68913ebfbcc3476498e19dc33ca4729c",
+      "age": 62,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "insurance_sales_agent",
+      "city": "Springtown",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "Disapprove. I find that Congress often prioritizes partisan politics over the needs of the people, leading to gridlock that hinders progress on vital issues such as healthcare and community support. It's frustrating to see the lack of collaboration when working together could yield beneficial outcomes for everyone.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I find that Congress often prioritizes partisan politics over the needs of the people, leading to gridlock that hinders progress on vital issues such as healthcare and community support. It's frustrating to see the lack of collaboration when working together could yield beneficial outcomes for everyone."
+    },
+    {
+      "persona_id": "36312309e76640b88d4739110f21ce47",
+      "age": 76,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "preschool_or_kindergarten_teacher",
+      "city": "Houston",
+      "state": "TX",
+      "marital_status": "divorced",
+      "response": "Disapprove. I feel that Congress often gets caught up in politics and partisanship instead of focusing on the needs of everyday people like my students and their families. It's frustrating to see important issues, especially related to education and healthcare, not being addressed effectively.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I feel that Congress often gets caught up in politics and partisanship instead of focusing on the needs of everyday people like my students and their families. It's frustrating to see important issues, especially related to education and healthcare, not being addressed effectively."
+    },
+    {
+      "persona_id": "62dd72a8a64c4c8196feee2dbfbc455f",
+      "age": 57,
+      "sex": "Male",
+      "education": "graduate",
+      "occupation": "database_administrator_or_architect",
+      "city": "Little Neck",
+      "state": "NY",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** I believe Congress often gets bogged down in partisan politics, which leads to gridlock and a lack of effective legislation. It's crucial for them to focus on the needs of the people and find common ground to address pressing issues facing our country.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I believe Congress often gets bogged down in partisan politics, which leads to gridlock and a lack of effective legislation. It's crucial for them to focus on the needs of the people and find common ground to address pressing issues facing our country."
+    },
+    {
+      "persona_id": "d5fe5ee20e6c4686af68be4c6f4c79b3",
+      "age": 34,
+      "sex": "Female",
+      "education": "bachelors",
+      "occupation": "accountant_or_auditor",
+      "city": "West Chester",
+      "state": "PA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I believe Congress is often more focused on partisan politics than on effectively addressing the needs of the community, which leads to gridlock and a lack of meaningful progress on pressing issues like education and economic stability. This impacts not just individuals but entire communities, including those like mine that rely on sound policies for growth and support.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I believe Congress is often more focused on partisan politics than on effectively addressing the needs of the community, which leads to gridlock and a lack of meaningful progress on pressing issues like education and economic stability. This impacts not just individuals but entire communities, including those like mine that rely on sound policies for growth and support."
+    },
+    {
+      "persona_id": "586295bacd314981b5671e5b50cbed37",
+      "age": 24,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "not_in_workforce",
+      "city": "Huntsville",
+      "state": "AL",
+      "marital_status": "never_married",
+      "response": "**Disapprove**. I think Congress often prioritizes partisan interests over addressing pressing issues that affect everyday people, which can lead to stagnation on crucial matters like healthcare and education funding. Their inability to reach consensus detracts from effectively serving the community and the country.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I think Congress often prioritizes partisan interests over addressing pressing issues that affect everyday people, which can lead to stagnation on crucial matters like healthcare and education funding. Their inability to reach consensus detracts from effectively serving the community and the country."
+    },
+    {
+      "persona_id": "92d0a5debc064decbf02f9694c7ffcc5",
+      "age": 22,
+      "sex": "Male",
+      "education": "9th_12th_no_diploma",
+      "occupation": "assembler_or_fabricator",
+      "city": "Coeur D Alene",
+      "state": "ID",
+      "marital_status": "never_married",
+      "response": "Disapprove. It seems like they're often caught up in partisan politics and lose sight of what really matters for everyday people. I think they need to focus more on practical solutions that help communities like mine.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. It seems like they're often caught up in partisan politics and lose sight of what really matters for everyday people. I think they need to focus more on practical solutions that help communities like mine."
+    },
+    {
+      "persona_id": "5c7a4c6bd931407eb9390abd911ce338",
+      "age": 31,
+      "sex": "Male",
+      "education": "associates",
+      "occupation": "home_appliance_repairer",
+      "city": "Amsterdam",
+      "state": "NY",
+      "marital_status": "never_married",
+      "response": "Disapprove. I believe Congress often gets caught in partisan gridlock, which hampers their ability to effectively address pressing issues like infrastructure, energy efficiency, and community support. As someone who values organized, methodical progress, I find it frustrating when they can't collaborate for the greater good.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I believe Congress often gets caught in partisan gridlock, which hampers their ability to effectively address pressing issues like infrastructure, energy efficiency, and community support. As someone who values organized, methodical progress, I find it frustrating when they can't collaborate for the greater good."
+    },
+    {
+      "persona_id": "cc086016d63c48b79246de8e710ec6b7",
+      "age": 23,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "dental_assistant",
+      "city": "Hardin",
+      "state": "IL",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** It feels like Congress often focuses more on political games than addressing the real issues that affect everyday people, like health care and job opportunities. Their inability to work together makes it hard for us to see meaningful progress.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It feels like Congress often focuses more on political games than addressing the real issues that affect everyday people, like health care and job opportunities. Their inability to work together makes it hard for us to see meaningful progress."
+    },
+    {
+      "persona_id": "383fb54eea8a4775a0f973df0a1e5509",
+      "age": 39,
+      "sex": "Male",
+      "education": "high_school",
+      "occupation": "sales_representative_of_services",
+      "city": "Hialeah",
+      "state": "FL",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** It feels like Congress often gets bogged down in partisan politics rather than focusing on the needs of everyday people, especially in our vibrant Hispanic communities. We need leaders who prioritize action and solutions over gridlock.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** It feels like Congress often gets bogged down in partisan politics rather than focusing on the needs of everyday people, especially in our vibrant Hispanic communities. We need leaders who prioritize action and solutions over gridlock."
+    },
+    {
+      "persona_id": "e439d23e891d40a683c73ab75828f4d6",
+      "age": 21,
+      "sex": "Male",
+      "education": "some_college",
+      "occupation": "electrician",
+      "city": "Greensboro",
+      "state": "NC",
+      "marital_status": "never_married",
+      "response": "Disapprove. I feel like Congress often gets tangled up in partisan politics instead of focusing on practical solutions that benefit everyday people, especially in areas like infrastructure and energy, which are crucial for our communities.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. I feel like Congress often gets tangled up in partisan politics instead of focusing on practical solutions that benefit everyday people, especially in areas like infrastructure and energy, which are crucial for our communities."
+    },
+    {
+      "persona_id": "ce96d3bc935443daa12f97fa6f2902ae",
+      "age": 1,
+      "sex": "Female",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Monroe",
+      "state": "OH",
+      "marital_status": "never_married",
+      "response": "Disapprove. Congress is not doing a good job because they aren't listening to people's needs, and things feel messy. It seems like they should play nicer and work together better!",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "Disapprove. Congress is not doing a good job because they aren't listening to people's needs, and things feel messy. It seems like they should play nicer and work together better!"
+    },
+    {
+      "persona_id": "daf1f3f963294f74ab1ee61533a05db6",
+      "age": 34,
+      "sex": "Female",
+      "education": "graduate",
+      "occupation": "financial_manager",
+      "city": "Lilburn",
+      "state": "GA",
+      "marital_status": "never_married",
+      "response": "**Disapprove.** I feel that Congress often gets bogged down in partisan politics rather than focusing on the pressing issues facing our communities, such as education, healthcare, and economic stability. It's crucial for our representatives to work collaboratively for the benefit of all citizens.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** I feel that Congress often gets bogged down in partisan politics rather than focusing on the pressing issues facing our communities, such as education, healthcare, and economic stability. It's crucial for our representatives to work collaboratively for the benefit of all citizens."
+    },
+    {
+      "persona_id": "8a3a330d3edd4a3f883fcb736afe3516",
+      "age": 20,
+      "sex": "Female",
+      "education": "9th_12th_no_diploma",
+      "occupation": "host_or_hostess_restaurant_lounge_or_coffee_shop",
+      "city": "Fountain Valley",
+      "state": "CA",
+      "marital_status": "never_married",
+      "response": "**Disapprove**. I feel like Congress often gets tangled up in politics and doesn't seem to focus enough on issues that really matter to everyday people, like affordable education and healthcare. It seems like there\u2019s too much arguing and not enough action.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I feel like Congress often gets tangled up in politics and doesn't seem to focus enough on issues that really matter to everyday people, like affordable education and healthcare. It seems like there\u2019s too much arguing and not enough action."
+    },
+    {
+      "persona_id": "78c87c61dcfb4347a0a83b8eb5778c3e",
+      "age": 54,
+      "sex": "Female",
+      "education": "high_school",
+      "occupation": "emergency_medical_technician",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "marital_status": "married_present",
+      "response": "**Disapprove.** Congress often appears to be divided and ineffective in addressing critical issues, particularly those affecting marginalized communities. As a professional in emergency medical services, I see the direct impact of political decisions on healthcare accessibility and equity.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove.** Congress often appears to be divided and ineffective in addressing critical issues, particularly those affecting marginalized communities. As a professional in emergency medical services, I see the direct impact of political decisions on healthcare accessibility and equity."
+    },
+    {
+      "persona_id": "bd26ad126dd5433982e43c255f8a559b",
+      "age": 9,
+      "sex": "Male",
+      "education": "less_than_9th",
+      "occupation": "not_in_workforce",
+      "city": "Royse City",
+      "state": "TX",
+      "marital_status": "never_married",
+      "response": "**Disapprove**. I think Congress could do a better job because it feels like they argue a lot instead of working together to solve problems that help people. I wish they focused more on what\u2019s best for the country instead of getting stuck in disagreements.",
+      "success": true,
+      "parsed_answer": "Unclear",
+      "raw_response": "**Disapprove**. I think Congress could do a better job because it feels like they argue a lot instead of working together to solve problems that help people. I wish they focused more on what\u2019s best for the country instead of getting stuck in disagreements."
+    }
+  ]
+}

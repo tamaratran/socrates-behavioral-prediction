@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+# Large files - not suitable for git
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.tar.gz
+
+# Data files - too large, download from HuggingFace instead
+data/socsci210_1pct/
+
+# Temporary files
+*.log
+*.txt
+raw_output.txt
+metrics_raw.txt
+predictions_*.txt
+predictions_*.json
+evaluation_predictions*.json
+
+# Keep these smaller result files
+!evaluation_metrics.json
+!EVALUATION_REPORT.md

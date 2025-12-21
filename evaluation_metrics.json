@@ -1,0 +1,7 @@
+{
+  "total_examples": 100,
+  "numeric_predictions": 99,
+  "mae": 3.7172,
+  "rmse": 10.7919,
+  "correlation": 0.8152
+}
