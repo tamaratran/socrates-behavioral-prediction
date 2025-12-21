@@ -16,6 +16,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 from tqdm import tqdm
 from sklearn.metrics import mean_absolute_error, mean_squared_error
+from scipy.stats import wasserstein_distance
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -130,6 +131,80 @@ def extract_numeric_response(text: str) -> float:
         return None
 
 
+def compute_wasserstein_distance(results: List[Dict]) -> Dict:
+    """
+    Compute Wasserstein distance as described in SOCRATES paper Section 3.2
+
+    For each (study_id, condition_num) pair, compares the distribution of
+    predicted responses vs actual responses. This measures how well the model
+    captures the distribution of human behavior under each experimental condition.
+
+    Returns:
+        Dictionary with overall Wasserstein distance and per-study breakdown
+    """
+    from collections import defaultdict
+
+    # Group predictions by (study_id, condition_num)
+    condition_groups = defaultdict(lambda: {'true': [], 'pred': []})
+
+    for result in results:
+        if result['true_numeric'] is not None and result['pred_numeric'] is not None:
+            study_id = result['study_id']
+            condition = result['condition_num']
+            key = (study_id, condition)
+
+            condition_groups[key]['true'].append(result['true_numeric'])
+            condition_groups[key]['pred'].append(result['pred_numeric'])
+
+    # Compute Wasserstein distance for each condition
+    distances = []
+    per_study_distances = defaultdict(list)
+
+    for (study_id, condition), responses in condition_groups.items():
+        true_dist = np.array(responses['true'])
+        pred_dist = np.array(responses['pred'])
+
+        if len(true_dist) < 2 or len(pred_dist) < 2:
+            # Need at least 2 samples for meaningful distribution comparison
+            continue
+
+        # Normalize distributions to [0, 1] as described in paper
+        # (r - rmin) / (rmax - rmin)
+        true_min, true_max = true_dist.min(), true_dist.max()
+        pred_min, pred_max = pred_dist.min(), pred_dist.max()
+
+        # Handle edge case where all values are the same
+        if true_max - true_min > 0:
+            true_normalized = (true_dist - true_min) / (true_max - true_min)
+        else:
+            true_normalized = np.zeros_like(true_dist)
+
+        if pred_max - pred_min > 0:
+            pred_normalized = (pred_dist - pred_min) / (pred_max - pred_min)
+        else:
+            pred_normalized = np.zeros_like(pred_dist)
+
+        # Compute Wasserstein distance (Earth Mover's Distance)
+        distance = wasserstein_distance(true_normalized, pred_normalized)
+        distances.append(distance)
+        per_study_distances[study_id].append(distance)
+
+    # Average across all conditions
+    overall_wasserstein = np.mean(distances) if distances else float('nan')
+
+    # Average per study
+    study_wasserstein = {}
+    for study_id, study_distances in per_study_distances.items():
+        study_wasserstein[study_id] = np.mean(study_distances)
+
+    return {
+        'wasserstein_distance': float(overall_wasserstein),
+        'num_conditions_evaluated': len(distances),
+        'num_studies_evaluated': len(per_study_distances),
+        'per_study_wasserstein': {k: float(v) for k, v in study_wasserstein.items()},
+    }
+
+
 def evaluate_model(
     model_path: str,
     test_data_path: str,
@@ -197,10 +272,17 @@ def evaluate_model(
         rmse = np.sqrt(mean_squared_error(ground_truth, predictions))
         correlation = np.corrcoef(ground_truth, predictions)[0, 1]
 
+        # Compute Wasserstein distance (paper's primary metric)
+        print("Computing Wasserstein distance...")
+        wasserstein_metrics = compute_wasserstein_distance(results)
+
         print(f"Number of numeric predictions: {len(predictions)}/{len(results)}")
         print(f"Mean Absolute Error (MAE): {mae:.4f}")
         print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
         print(f"Correlation: {correlation:.4f}")
+        print(f"Wasserstein Distance: {wasserstein_metrics['wasserstein_distance']:.4f}")
+        print(f"  - Evaluated across {wasserstein_metrics['num_conditions_evaluated']} conditions")
+        print(f"  - Across {wasserstein_metrics['num_studies_evaluated']} studies")
 
         metrics = {
             'num_predictions': len(predictions),
@@ -208,6 +290,10 @@ def evaluate_model(
             'mae': float(mae),
             'rmse': float(rmse),
             'correlation': float(correlation),
+            'wasserstein_distance': wasserstein_metrics['wasserstein_distance'],
+            'wasserstein_num_conditions': wasserstein_metrics['num_conditions_evaluated'],
+            'wasserstein_num_studies': wasserstein_metrics['num_studies_evaluated'],
+            'wasserstein_per_study': wasserstein_metrics['per_study_wasserstein'],
         }
     else:
         print("WARNING: No numeric predictions could be extracted!")
