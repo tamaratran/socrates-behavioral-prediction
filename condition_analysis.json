@@ -1,0 +1,138 @@
+{
+  "perfect_alignment": [
+    {
+      "study": "a693y",
+      "condition": 4,
+      "n": 2,
+      "true_dist": {
+        "2.0": 2
+      },
+      "pred_dist": {
+        "2.0": 2
+      },
+      "scenario": " You read the descriptions of the two reforms: \u201cSome people propose raising the retirement age to 68",
+      "wasserstein": 0.0
+    },
+    {
+      "study": "8ctbk",
+      "condition": 3,
+      "n": 2,
+      "true_dist": {
+        "8.0": 2
+      },
+      "pred_dist": {
+        "1.0": 2
+      },
+      "scenario": " You read a family scenario where: You have three children; You work 60 hours a week; You do most of",
+      "wasserstein": 0.0
+    },
+    {
+      "study": "326nv",
+      "condition": 1,
+      "n": 2,
+      "true_dist": {
+        "1.0": 1,
+        "3.0": 1
+      },
+      "pred_dist": {
+        "2.0": 1,
+        "3.0": 1
+      },
+      "scenario": " You were shown an advertisement with no music and neutral visuals presenting an immigration message",
+      "wasserstein": 0.0
+    }
+  ],
+  "good_alignment": [
+    {
+      "study": "326nv",
+      "condition": 3,
+      "n": 2,
+      "true_dist": {
+        "1.0": 1,
+        "3.0": 1
+      },
+      "pred_dist": {
+        "3.0": 1,
+        "4.0": 1
+      },
+      "scenario": " You were shown an advertisement with threatening music and fearful visuals presenting an immigratio",
+      "wasserstein": 0.0
+    },
+    {
+      "study": "zx5b8",
+      "condition": 1,
+      "n": 2,
+      "true_dist": {
+        "2.0": 1,
+        "100.0": 1
+      },
+      "pred_dist": {
+        "3.0": 1,
+        "20.0": 1
+      },
+      "scenario": " Imagine that you and your spouse are sitting next to one another on the sofa and discussing an ongo",
+      "wasserstein": 0.0
+    },
+    {
+      "study": "k9bwj",
+      "condition": 1,
+      "n": 2,
+      "true_dist": {
+        "3.0": 1,
+        "4.0": 1
+      },
+      "pred_dist": {
+        "1.0": 1,
+        "4.0": 1
+      },
+      "scenario": " You read \u201cGenerations of slavery and discrimination have created conditions that make it difficult ",
+      "wasserstein": 0.0
+    }
+  ],
+  "moderate_alignment": [
+    {
+      "study": "v6kqy",
+      "condition": 4,
+      "n": 7,
+      "true_dist": {
+        "1.0": 4,
+        "2.0": 3
+      },
+      "pred_dist": {
+        "1.0": 2,
+        "2.0": 4,
+        "3.0": 1
+      },
+      "scenario": " You viewed an image and description of the Hyundai Kona Electric, a 100% electric version of the Hy",
+      "wasserstein": 0.2857142857142857
+    },
+    {
+      "study": "8ctbk",
+      "condition": 1,
+      "n": 2,
+      "true_dist": {
+        "0.0": 1,
+        "6.0": 1
+      },
+      "pred_dist": {
+        "4.0": 2
+      },
+      "scenario": " You read a family scenario where: You have three children; You work 25 hours a week; You do most of",
+      "wasserstein": 0.5
+    },
+    {
+      "study": "py9q3",
+      "condition": 5,
+      "n": 2,
+      "true_dist": {
+        "1.0": 2
+      },
+      "pred_dist": {
+        "1.0": 1,
+        "2.0": 1
+      },
+      "scenario": " You read the description of Vignette 2. All things considered, is it better for her if she stays at",
+      "wasserstein": 0.5
+    }
+  ]
+}

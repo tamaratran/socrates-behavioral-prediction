@@ -24,6 +24,7 @@ Thumbs.db
 
 # Secrets
 .env
+run_remote_setup.sh
 
 # Large files - not suitable for git
 models/
@@ -35,6 +36,7 @@ models/
 
 # Data files - too large, download from HuggingFace instead
 data/socsci210_1pct/
+data/socsci210_full/
 
 # Temporary files
 *.log
