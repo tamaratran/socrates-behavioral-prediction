@@ -55,6 +55,7 @@ def main():
     parser.add_argument("--use-wandb", action="store_true", help="Use Weights & Biases logging")
     parser.add_argument("--deepspeed", default="deepspeed_config.json", help="DeepSpeed config file")
     parser.add_argument("--resume-from-checkpoint", type=str, default=None, help="Resume from checkpoint")
+    parser.add_argument("--local_rank", type=int, default=-1, help="Local rank for distributed training (set by DeepSpeed)")
     args = parser.parse_args()
 
     # Load configuration
@@ -186,6 +187,9 @@ def main():
 
     # Create trainer
     print("Creating SFT Trainer...")
+    # Set tokenizer's max length for truncation
+    tokenizer.model_max_length = train_config['max_seq_length']
+
     trainer = SFTTrainer(
         model=model,
         args=training_args,
@@ -193,7 +197,6 @@ def main():
         eval_dataset=val_dataset,
         processing_class=tokenizer,
         formatting_func=format_prompt,
-        max_seq_length=train_config['max_seq_length'],
     )
     print("✓ Trainer created\n")
 
