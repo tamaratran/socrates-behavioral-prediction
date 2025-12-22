@@ -47,4 +47,6 @@ evaluation_predictions*.json
 
 # Keep these smaller result files
 !evaluation_metrics.json
+!evaluation_metrics_proper_100.json
+!evaluation_predictions_proper_100.json
 !EVALUATION_REPORT.md
