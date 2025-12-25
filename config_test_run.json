@@ -1,0 +1,63 @@
+{
+  "description": "Quick test run (50 steps) for system verification before full training",
+  "model_name": "Qwen/Qwen2.5-14B-Instruct",
+  "data_dir": "data/socsci210_full",
+  "output_dir": "models/socrates-qwen-test-run",
+
+  "training": {
+    "num_epochs": 1,
+    "max_steps": 50,
+    "global_batch_size": 256,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 16,
+    "gradient_accumulation_steps": 8,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.1,
+    "warmup_ratio": 0.05,
+    "lr_scheduler_type": "cosine",
+    "max_seq_length": 2048,
+    "save_steps": 10,
+    "eval_steps": 10,
+    "logging_steps": 1,
+    "bf16": true,
+    "optim": "adamw_torch",
+    "gradient_checkpointing": true
+  },
+
+  "inference": {
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "max_new_tokens": 100
+  },
+
+  "lora": {
+    "use_qlora": true,
+    "r": 32,
+    "lora_alpha": 64,
+    "lora_dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  },
+
+  "hardware_config": {
+    "num_gpus": 2,
+    "gpu_type": "A100 40GB",
+    "note": "Optimized for quick test on 2x A100 40GB",
+    "effective_batch_size_calculation": "2 GPUs × 16 per-device × 8 grad_accum = 256 global batch size"
+  },
+
+  "test_purpose": {
+    "goal": "Verify all systems working before full multi-day training",
+    "checks": [
+      "Training script runs without errors",
+      "Checkpoints save correctly on remote",
+      "Checkpoint download script works",
+      "Checkpoint monitor detects and downloads new checkpoints",
+      "Can resume from checkpoint",
+      "Loss is decreasing",
+      "GPU utilization is high (>80%)",
+      "No memory errors"
+    ],
+    "expected_duration": "10-15 minutes",
+    "expected_checkpoints": 5
+  }
+}

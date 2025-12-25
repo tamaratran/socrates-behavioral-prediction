@@ -81,11 +81,17 @@ def main():
     print()
 
     # Load datasets
-    print("Loading data...")
+    # Only print from rank 0 to avoid log spam from all DeepSpeed processes
+    local_rank = int(os.environ.get("LOCAL_RANK", -1))
+    if local_rank <= 0:
+        print("Loading data...")
+
     train_dataset = load_dataset('json', data_files=f"{config['data_dir']}/train.jsonl", split="train")
     val_dataset = load_dataset('json', data_files=f"{config['data_dir']}/val.jsonl", split="train")
-    print(f"✓ Train: {len(train_dataset):,} examples")
-    print(f"✓ Val: {len(val_dataset):,} examples")
+
+    if local_rank <= 0:
+        print(f"✓ Train: {len(train_dataset):,} examples")
+        print(f"✓ Val: {len(val_dataset):,} examples")
 
     # Calculate training stats
     train_config = config['training']
@@ -105,25 +111,15 @@ def main():
         tokenizer.pad_token_id = tokenizer.eos_token_id
     print("✓ Tokenizer loaded\n")
 
-    # Configure quantization (QLoRA)
-    print("Configuring QLoRA (4-bit quantization)...")
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
-        bnb_4bit_use_double_quant=True,
-    )
-
-    # Load model
+    # Load model in bf16 (no quantization for DeepSpeed compatibility)
     print(f"Loading model: {config['model_name']}")
+    print("Loading in bfloat16 precision (compatible with DeepSpeed ZeRO-2)...")
     print("This may take several minutes...")
     model = AutoModelForCausalLM.from_pretrained(
         config['model_name'],
-        quantization_config=bnb_config,
-        device_map="auto",
+        torch_dtype=torch.bfloat16,
         trust_remote_code=True,
     )
-    model = prepare_model_for_kbit_training(model)
     print("✓ Model loaded\n")
 
     print("Initial GPU Memory:")
@@ -152,6 +148,7 @@ def main():
     training_args = TrainingArguments(
         output_dir=output_dir,
         num_train_epochs=train_config['num_epochs'],
+        max_steps=train_config.get('max_steps', -1),  # -1 means no limit
         per_device_train_batch_size=train_config['per_device_train_batch_size'],
         per_device_eval_batch_size=train_config['per_device_eval_batch_size'],
         gradient_accumulation_steps=train_config['gradient_accumulation_steps'],
@@ -162,7 +159,7 @@ def main():
         logging_steps=train_config['logging_steps'],
         save_steps=train_config['save_steps'],
         eval_steps=train_config['eval_steps'],
-        save_total_limit=5,
+        save_total_limit=3,
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
         greater_is_better=False,
@@ -181,7 +178,7 @@ def main():
         gradient_checkpointing=train_config.get('gradient_checkpointing', True),
         gradient_checkpointing_kwargs={"use_reentrant": False},
         # Data handling
-        dataloader_num_workers=4,
+        dataloader_num_workers=2,  # Reduced from 4 to prevent I/O contention (4 GPUs × 2 = 8 workers)
         dataloader_pin_memory=True,
     )
 

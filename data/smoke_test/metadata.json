@@ -1,0 +1,13 @@
+{
+  "total_examples": 29013,
+  "subset_fraction": 0.01,
+  "train_size": 23210,
+  "val_size": 2901,
+  "test_size": 2902,
+  "train_split": 0.8,
+  "seed": 42,
+  "source_dataset": "socratesft/SocSci210",
+  "description": "Smoke test dataset (10 examples per split) for local validation",
+  "train_examples": 10,
+  "val_examples": 10
+}

@@ -1,0 +1,61 @@
+{
+  "description": "500-step validation run - GO/NO-GO checkpoint before full training",
+  "model_name": "Qwen/Qwen2.5-14B-Instruct",
+  "data_dir": "data/socsci210_full",
+  "output_dir": "models/socrates-qwen-500step-validation",
+
+  "training": {
+    "num_epochs": 1,
+    "max_steps": 500,
+    "global_batch_size": 256,
+    "per_device_train_batch_size": 8,
+    "per_device_eval_batch_size": 8,
+    "gradient_accumulation_steps": 8,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.1,
+    "warmup_ratio": 0.05,
+    "lr_scheduler_type": "cosine",
+    "max_seq_length": 2048,
+    "save_steps": 500,
+    "eval_steps": 500,
+    "logging_steps": 10,
+    "bf16": true,
+    "optim": "adamw_torch",
+    "gradient_checkpointing": true
+  },
+
+  "inference": {
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "max_new_tokens": 100
+  },
+
+  "lora": {
+    "use_qlora": true,
+    "r": 32,
+    "lora_alpha": 64,
+    "lora_dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  },
+
+  "hardware_config": {
+    "num_gpus": 4,
+    "gpu_type": "A100 80GB",
+    "note": "4.5% of full training - GO/NO-GO decision point",
+    "effective_batch_size_calculation": "4 GPUs × 8 per-device × 8 grad_accum = 256 global batch size"
+  },
+
+  "validation_purpose": {
+    "goal": "Validate hyperparameters and learning before full 4-day training",
+    "checks": [
+      "Training loss decreasing",
+      "Validation metrics improving over baseline",
+      "Wasserstein distance 5-10% better than baseline",
+      "No overfitting signs",
+      "Output format correct"
+    ],
+    "decision_criteria": "See VALIDATION_CRITERIA.md",
+    "expected_duration": "~1.5 hours on 4x A100 80GB",
+    "cost": "~$20"
+  }
+}
