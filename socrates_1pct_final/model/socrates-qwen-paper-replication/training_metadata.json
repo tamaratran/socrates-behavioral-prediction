@@ -1,0 +1,9 @@
+{
+  "model_name": "Qwen/Qwen2.5-14B-Instruct",
+  "data_dir": "data/socsci210_1pct",
+  "paper": "arxiv:2509.05830",
+  "train_examples": 23210,
+  "val_examples": 2901,
+  "epochs": 1,
+  "global_batch_size": 256
+}

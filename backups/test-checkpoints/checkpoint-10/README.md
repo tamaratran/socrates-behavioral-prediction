@@ -1,202 +1,183 @@
 ---
 base_model: Qwen/Qwen2.5-14B-Instruct
 library_name: peft
+tags:
+- socrates
+- behavioral-prediction
+- lora
+- qwen
+- test-checkpoint
+license: apache-2.0
 ---
 
-# Model Card for Model ID
+# SOCRATES QLoRA Test Checkpoint (10 steps)
 
-<!-- Provide a quick summary of what the model is/does. -->
+This is an early test checkpoint from fine-tuning Qwen2.5-14B-Instruct using QLoRA for behavioral prediction tasks, based on the SOCRATES paper methodology.
 
-
+⚠️ **Note**: This is a test checkpoint with only 10 training steps - not intended for production use. It serves as a validation checkpoint for the training infrastructure.
 
 ## Model Details
 
 ### Model Description
 
-<!-- Provide a longer summary of what this model is. -->
+This checkpoint contains a QLoRA (Quantized Low-Rank Adaptation) adapter fine-tuned on the Qwen2.5-14B-Instruct base model. The model is being trained to predict human behavioral outcomes based on scenario descriptions, following the SOCRATES (Systematic Cognitive Reasoning for Adaptive Task Execution in Scenarios) methodology.
 
+- **Developed by:** Tamara Tran
+- **Model type:** Causal Language Model with LoRA adapter
+- **Language:** English
+- **Base model:** Qwen/Qwen2.5-14B-Instruct (14B parameters)
+- **Fine-tuning method:** QLoRA (4-bit quantization + LoRA)
+- **License:** Apache 2.0
+- **Checkpoint:** Step 10 (early test checkpoint)
 
+### Repository Links
 
-- **Developed by:** [More Information Needed]
-- **Funded by [optional]:** [More Information Needed]
-- **Shared by [optional]:** [More Information Needed]
-- **Model type:** [More Information Needed]
-- **Language(s) (NLP):** [More Information Needed]
-- **License:** [More Information Needed]
-- **Finetuned from model [optional]:** [More Information Needed]
-
-### Model Sources [optional]
-
-<!-- Provide the basic links for the model. -->
-
-- **Repository:** [More Information Needed]
-- **Paper [optional]:** [More Information Needed]
-- **Demo [optional]:** [More Information Needed]
-
-## Uses
-
-<!-- Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. -->
-
-### Direct Use
-
-<!-- This section is for the model use without fine-tuning or plugging into a larger ecosystem/app. -->
-
-[More Information Needed]
-
-### Downstream Use [optional]
-
-<!-- This section is for the model use when fine-tuned for a task, or when plugged into a larger ecosystem/app -->
-
-[More Information Needed]
-
-### Out-of-Scope Use
-
-<!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
-
-[More Information Needed]
-
-## Bias, Risks, and Limitations
-
-<!-- This section is meant to convey both technical and sociotechnical limitations. -->
-
-[More Information Needed]
-
-### Recommendations
-
-<!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
-
-Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recommendations.
-
-## How to Get Started with the Model
-
-Use the code below to get started with the model.
-
-[More Information Needed]
+- **GitHub:** [tamaratran/socrates-behavioral-prediction](https://github.com/tamaratran/socrates-behavioral-prediction)
 
 ## Training Details
 
+### Training Configuration
+
+**LoRA Hyperparameters:**
+- Rank (r): 32
+- Alpha: 64
+- Dropout: 0.05
+- Target modules: `q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`
+- Trainable parameters: ~263M (LoRA adapters only)
+
+**Training Setup:**
+- Training steps: 10 (test run)
+- Epochs: 1.0
+- Batch size: 2
+- Learning rate: 1e-5 (with cosine decay)
+- Precision: bfloat16
+- Framework: DeepSpeed ZeRO-2
+
+**Hardware:**
+- GPUs: 4x A100 80GB (Thunder Compute)
+- Distributed training: DeepSpeed
+
+### Training Results
+
+**Final Metrics (Step 10):**
+- Training loss: 4.648
+- Evaluation loss: 4.582
+- Mean token accuracy: 33.3%
+- Entropy: 1.961 bits/token
+- Gradient norm: 9.09
+
+**Training Progression:**
+| Step | Loss  | Eval Loss | Token Accuracy | Learning Rate |
+|------|-------|-----------|----------------|---------------|
+| 1    | 5.282 | -         | 27.8%          | 0.0           |
+| 5    | 5.175 | -         | 27.8%          | 7.5e-6        |
+| 10   | 4.648 | 4.582     | 33.3%          | 1.25e-6       |
+
+The model showed steady loss reduction over 10 steps, with token accuracy improving from 27.8% to 33.3%.
+
 ### Training Data
 
-<!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
+The model was trained on behavioral prediction scenarios derived from the SOCRATES dataset, focusing on predicting human decisions and outcomes in various social and cognitive scenarios.
 
-[More Information Needed]
+## Usage
 
-### Training Procedure
+### Loading the Model
 
-<!-- This relates heavily to the Technical Specifications. Content here should link to that section when it is relevant to the training procedure. -->
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from peft import PeftModel
 
-#### Preprocessing [optional]
+# Load base model
+base_model = AutoModelForCausalLM.from_pretrained(
+    "Qwen/Qwen2.5-14B-Instruct",
+    torch_dtype="auto",
+    device_map="auto"
+)
 
-[More Information Needed]
+# Load LoRA adapter
+model = PeftModel.from_pretrained(
+    base_model,
+    "tamaratran/socrates-qwen-test-checkpoint"
+)
 
+# Load tokenizer
+tokenizer = AutoTokenizer.from_pretrained("tamaratran/socrates-qwen-test-checkpoint")
 
-#### Training Hyperparameters
+# Inference
+messages = [
+    {"role": "user", "content": "Your behavioral prediction prompt here"}
+]
+text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+inputs = tokenizer(text, return_tensors="pt").to(model.device)
 
-- **Training regime:** [More Information Needed] <!--fp32, fp16 mixed precision, bf16 mixed precision, bf16 non-mixed precision, fp16 non-mixed precision, fp8 mixed precision -->
+outputs = model.generate(**inputs, max_new_tokens=512)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+```
 
-#### Speeds, Sizes, Times [optional]
+### Merging Adapter (Optional)
 
-<!-- This section provides information about throughput, start/end time, checkpoint size if relevant, etc. -->
+```python
+# Merge LoRA weights with base model
+merged_model = model.merge_and_unload()
+merged_model.save_pretrained("./merged_model")
+```
 
-[More Information Needed]
+## Limitations
 
-## Evaluation
+- **Early checkpoint**: Only 10 training steps - not representative of final model performance
+- **Limited training**: Model has not converged and requires significantly more training
+- **Test purpose only**: This checkpoint is primarily for infrastructure validation
+- **Base model limitations**: Inherits biases and limitations from Qwen2.5-14B-Instruct
 
-<!-- This section describes the evaluation protocols and provides the results. -->
+## Intended Use
 
-### Testing Data, Factors & Metrics
+This checkpoint is intended for:
+- Testing and validating the training pipeline
+- Demonstrating the checkpoint upload process
+- Early-stage model development and debugging
+- **Not for production use or deployment**
 
-#### Testing Data
+## Technical Specifications
 
-<!-- This should link to a Dataset Card if possible. -->
-
-[More Information Needed]
-
-#### Factors
-
-<!-- These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. -->
-
-[More Information Needed]
-
-#### Metrics
-
-<!-- These are the evaluation metrics being used, ideally with a description of why. -->
-
-[More Information Needed]
-
-### Results
-
-[More Information Needed]
-
-#### Summary
-
-
-
-## Model Examination [optional]
-
-<!-- Relevant interpretability work for the model goes here -->
-
-[More Information Needed]
-
-## Environmental Impact
-
-<!-- Total emissions (in grams of CO2eq) and additional considerations, such as electricity usage, go here. Edit the suggested text below accordingly -->
-
-Carbon emissions can be estimated using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. (2019)](https://arxiv.org/abs/1910.09700).
-
-- **Hardware Type:** [More Information Needed]
-- **Hours used:** [More Information Needed]
-- **Cloud Provider:** [More Information Needed]
-- **Compute Region:** [More Information Needed]
-- **Carbon Emitted:** [More Information Needed]
-
-## Technical Specifications [optional]
-
-### Model Architecture and Objective
-
-[More Information Needed]
+### Model Architecture
+- **Base:** Qwen2.5-14B-Instruct (14B parameters)
+- **Adapter:** LoRA (Low-Rank Adaptation)
+- **Quantization:** 4-bit (QLoRA)
+- **Precision:** bfloat16
 
 ### Compute Infrastructure
 
-[More Information Needed]
+**Hardware:**
+- 4x NVIDIA A100 80GB GPUs
+- Platform: Thunder Compute
 
-#### Hardware
+**Software:**
+- Transformers: 4.x
+- PEFT: 0.7.1
+- DeepSpeed: Latest
+- PyTorch: 2.x
+- CUDA: 12.x
 
-[More Information Needed]
+## Citation
 
-#### Software
+If you use this work, please cite:
 
-[More Information Needed]
+```bibtex
+@software{socrates_qwen_checkpoint,
+  author = {Tran, Tamara},
+  title = {SOCRATES QLoRA Test Checkpoint},
+  year = {2025},
+  url = {https://huggingface.co/tamaratran/socrates-qwen-test-checkpoint}
+}
+```
 
-## Citation [optional]
+## Contact
 
-<!-- If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. -->
+For questions or issues, please open an issue on the [GitHub repository](https://github.com/tamaratran/socrates-behavioral-prediction).
 
-**BibTeX:**
+---
 
-[More Information Needed]
-
-**APA:**
-
-[More Information Needed]
-
-## Glossary [optional]
-
-<!-- If relevant, include terms and calculations in this section that can help readers understand the model or model card. -->
-
-[More Information Needed]
-
-## More Information [optional]
-
-[More Information Needed]
-
-## Model Card Authors [optional]
-
-[More Information Needed]
-
-## Model Card Contact
-
-[More Information Needed]
-### Framework versions
-
-- PEFT 0.7.1
+**Framework versions:**
+- PEFT: 0.7.1
+- Transformers: 4.x
+- PyTorch: 2.x

@@ -193,7 +193,7 @@ def main():
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
         processing_class=tokenizer,
-        formatting_func=format_prompt,
+        dataset_text_field="text",  # Use pre-formatted text field (avoids GPU formatting)
     )
     print("✓ Trainer created\n")
 

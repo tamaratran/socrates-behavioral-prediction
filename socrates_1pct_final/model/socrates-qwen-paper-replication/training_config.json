@@ -1,0 +1,42 @@
+{
+  "description": "Exact configuration from SOCRATES paper (arxiv:2509.05830) Appendix C",
+  "model_name": "Qwen/Qwen2.5-14B-Instruct",
+  "data_dir": "data/socsci210_1pct",
+  "output_dir": "models/socrates-qwen-paper-replication",
+  "training": {
+    "num_epochs": 1,
+    "global_batch_size": 256,
+    "per_device_train_batch_size": 4,
+    "gradient_accumulation_steps": 64,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.1,
+    "warmup_ratio": 0.05,
+    "lr_scheduler_type": "cosine",
+    "max_seq_length": 2048,
+    "save_steps": 100,
+    "logging_steps": 10,
+    "bf16": true,
+    "optim": "adamw_torch"
+  },
+  "inference": {
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "max_new_tokens": 100
+  },
+  "lora": {
+    "use_qlora": true,
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "hardware_note": "Paper used 8x A100 80GB. This config adapts for 1x A100 using gradient accumulation to match effective batch size of 256"
+}

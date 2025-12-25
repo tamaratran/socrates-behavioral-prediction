@@ -1,0 +1,23 @@
+{
+  "num_predictions": 100,
+  "total_examples": 100,
+  "mae": 1.9999999999999998e+97,
+  "rmse": 2e+98,
+  "correlation": 0.24727189953672804,
+  "wasserstein_distance": 0.08108940492446408,
+  "wasserstein_num_conditions": 26,
+  "wasserstein_num_studies": 11,
+  "wasserstein_per_study": {
+    "a693y": 0.0,
+    "v6kqy": 0.19365079365079363,
+    "8ctbk": 0.15892857142857142,
+    "326nv": 0.0,
+    "4fsg5": 0.02204861111111111,
+    "py9q3": 0.5,
+    "ztwqy": 0.006048652202498356,
+    "gx6hp": 0.0,
+    "zx5b8": 0.0,
+    "4gczb": 0.09166666666666666,
+    "k9bwj": 0.0
+  }
+}

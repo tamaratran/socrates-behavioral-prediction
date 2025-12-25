@@ -65,10 +65,21 @@ def format_training_example(example: Dict[str, Any]) -> Dict[str, str]:
 
     output_text = f"Response: {response}"
 
+    # Pre-format the full text for training (avoids GPU-based formatting later)
+    formatted_text = f"""### Instruction:
+{instruction}
+
+### Input:
+{input_text}
+
+### Response:
+{output_text}"""
+
     return {
         'instruction': instruction,
         'input': input_text,
         'output': output_text,
+        'text': formatted_text,  # Pre-formatted field for efficient training
         'study_id': example.get('study_id', ''),
         'condition_num': example.get('condition_num', ''),
         'sample_id': example.get('sample_id', ''),
